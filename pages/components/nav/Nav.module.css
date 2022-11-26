@@ -24,10 +24,12 @@
   font-size: 1.1rem;
 }
 
+/* hoverした時 */
 .nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* クリックした時 */
 .nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
