@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <a href="#" className={classes.footer__logo}>
-        EGATOR
+        t-riku Portfolio Site
       </a>
 
       <ul className={classes.permalinks}>
