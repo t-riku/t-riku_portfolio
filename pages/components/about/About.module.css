@@ -109,23 +109,3 @@
     margin: 1.5rem 0;
   }
 }
-
-/* ----------------global---------------- */
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-}
-
-/* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
-@media (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-}
-
-/* ============== MEDIA QUERIES (SMALL DEVICES) 携帯サイズ ================= */
-@media (max-width: 1024px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-}
