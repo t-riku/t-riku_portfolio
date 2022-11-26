@@ -73,13 +73,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className={classes.portfolio__item_cta}>
+                {/* modalwindowにする */}
                 <a
                   href={github}
                   className="btn"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Github
+                  More
                 </a>
                 <a
                   href={demo}
@@ -89,6 +90,15 @@ const Portfolio = () => {
                 >
                   Live Demo
                 </a>
+                {/* githubはアイコンにする */}
+                {/* <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Github
+                </a> */}
               </div>
             </article>
           );
