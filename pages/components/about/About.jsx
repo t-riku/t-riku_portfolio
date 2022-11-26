@@ -19,7 +19,7 @@ const About = () => {
               src={ME}
               width={413}
               height={413}
-              layout="responsive"
+              // layout="responsive"
               alt="My Image"
             />
           </div>
