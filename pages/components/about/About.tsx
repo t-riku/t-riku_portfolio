@@ -30,7 +30,7 @@ const About = () => {
             <article className={classes.about__card}>
               <FaAward className={classes.about__icon} />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Studying</small>
             </article>
             <article className={classes.about__card}>
               <FiUsers className={classes.about__icon} />
@@ -45,15 +45,22 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            corrupti quia molestias quaerat repellendus? Nam doloremque unde
-            voluptas molestiae alias iure in architecto nostrum, eveniet tempora
-            possimus ab. Omnis, iusto.
+            大学入学後、授業でHTML,CSS,JapaScriptなどのWebの基礎を学ぶ。
+            大学2年生の4月に親戚の法務事務所のWebサイトを制作し初めて世の中に自身の制作物を公開した。
+            大学2年生の終わり、3月に親の建築事務所のWebサイトを制作し公開。
+            大学3年生では改めてリデザインをしReactを用いて制作した。
+            最近はNext.jsに熱中している。
           </p>
 
-          <a href="#contact" className="btn btn-primary">
-            Let&apos;s Contact
-          </a>
+          <div className={classes.cta}>
+            <a href="#portfolio" className="btn">
+              More
+            </a>
+
+            <a href="#contact" className="btn btn-primary">
+              Let&apos;s Contact
+            </a>
+          </div>
         </div>
       </div>
     </section>

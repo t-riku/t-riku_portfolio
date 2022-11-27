@@ -1,20 +1,31 @@
 import React from "react";
 import classes from "./Header.module.css";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
+import { FaGithub, FaSchool } from "react-icons/fa";
+import { BsHouseFill } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
     <div className={classes.header__socials}>
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener">
-        <BsLinkedin />
-      </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer noopener">
+      <a
+        href="https://github.com/t-riku"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         <FaGithub />
       </a>
-      <a href="https://dribbble.com" target="_blank" rel="noreferrer noopener">
-        <FiDribbble />
+      <a
+        href="https://www.dhw.ac.jp/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <FaSchool />
+      </a>
+      <a
+        href="https://www.arttada.com/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <BsHouseFill />
       </a>
     </div>
   );

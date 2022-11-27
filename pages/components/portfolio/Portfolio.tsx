@@ -12,45 +12,52 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "ONE OK ROCK",
+    title: "ポートフォリオサイト",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "ONE OK ROCK",
+    title: "多田設計事務所（リメイク）",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "ONE OK ROCK",
+    title: "多田設計事務所",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "ONE OK ROCK",
+    title: "山下法務事務所",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
   {
     id: 5,
     image: IMG5,
-    title: "ONE OK ROCK",
+    title: "ONE OK ROCK Website",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "ONE OK ROCK",
+    title: "DHU Web（リメイク）",
     github: "https://github.com/t-riku/oneokrock_web",
     demo: "https://www.arttada.com/",
   },
+  // {
+  //   id: 7,
+  //   image: IMG7,
+  //   title: "天気アプリ",
+  //   github: "https://github.com/t-riku/oneokrock_web",
+  //   demo: "https://www.arttada.com/",
+  // },
 ];
 
 const Portfolio = () => {
