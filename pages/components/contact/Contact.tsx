@@ -3,12 +3,32 @@ import classes from "./Contact.module.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { send } from "emailjs-com";
-import { emailjsConfig } from "./Emailjs";
+// import { emailjsConfig } from "./Emailjs";
+import { init } from "emailjs-com";
 
 const Contact = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
+
+  // ==============================
+  const config = {
+    userId: process.env.NEXT_PUBLIC_USER_ID,
+    serviceId: process.env.NEXT_PUBLIC_SERVICE_ID,
+    templateId: process.env.NEXT_PUBLIC_TEMPLATE_ID,
+  };
+
+  if (
+    config.userId !== undefined &&
+    config.serviceId !== undefined &&
+    config.templateId !== undefined
+  ) {
+    init(config.userId);
+  }
+
+  const emailjsConfig = config;
+
+  // =================================
 
   const sendMail = () => {
     if (
