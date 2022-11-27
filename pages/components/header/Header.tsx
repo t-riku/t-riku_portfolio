@@ -21,9 +21,9 @@ const Header = () => {
           <Image src={ME} width={500} height={300} alt="My Image" />
         </div>
 
-        <a href="#contact" className={classes.scroll__down}>
-          Scroll Down
-        </a>
+        <div className={classes.scrolldown4}>
+          <span>Scroll</span>
+        </div>
       </div>
     </header>
   );
