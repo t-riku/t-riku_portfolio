@@ -1,9 +1,11 @@
 import React from "react";
-import classes from "./Header.module.css";
-import CTA from "./CTA";
-import ME from "../../../public/assets/me.png";
+import classes from "src/pages/components/header/Header.module.css";
+// import CTA from "src/pages/components/header/CTA";
+import ME from "public/assets/me.png";
 import Image from "next/image";
+import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+// import HeaderSocials from "src/pages/components/header/HeaderSocials";
 
 const Header = () => {
   return (

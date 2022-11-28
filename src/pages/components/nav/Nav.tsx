@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Nav.module.css";
+import classes from "src/pages/components/nav/Nav.module.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
