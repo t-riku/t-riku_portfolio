@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "src/pages/components/work/Work.module.css";
-import projectsData from "./Data";
-import projectsNav from "./NavData";
+import projectsData from "../../../Data/Data";
+import projectsNav from "../../../Data/NavData";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
