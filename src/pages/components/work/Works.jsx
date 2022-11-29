@@ -1,13 +1,28 @@
 import React, { useEffect, useState } from "react";
 import classes from "src/pages/components/work/Work.module.css";
 import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
+// import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
+
+  const projectsNav = [
+    {
+      name: "all",
+    },
+    {
+      name: "web",
+    },
+    {
+      name: "app",
+    },
+    {
+      name: "design",
+    },
+  ];
 
   useEffect(() => {
     if (item.name === "all") {

@@ -58,19 +58,4 @@ const projectsData = [
   },
 ];
 
-const projectsNav = [
-  {
-    name: "all",
-  },
-  {
-    name: "web",
-  },
-  {
-    name: "app",
-  },
-  {
-    name: "design",
-  },
-];
-
-export { projectsData, projectsNav };
+export { projectsData };
