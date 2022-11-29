@@ -7,7 +7,7 @@ import Work6 from "public/assets/portfolio/6.jpg";
 
 // ========== PORTFOLIO DATA ==========
 
-export const projectsData = [
+const projectsData = [
   {
     id: 1,
     image: Work1,
@@ -58,19 +58,4 @@ export const projectsData = [
   },
 ];
 
-export const projectsNav = [
-  {
-    name: "all",
-  },
-  {
-    name: "web",
-  },
-  {
-    name: "app",
-  },
-  {
-    name: "design",
-  },
-];
-
-// export default { projectsData, projectsNav };
+export default projectsData;
