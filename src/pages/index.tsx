@@ -3,7 +3,7 @@ import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 // import Experience from "./components/experience/Experience";
 // import Services from "./components/services/Services";
-import Work from "./components/work/work";
+import Work from "./components/work/Work";
 import Portfolio from "./components/portfolio/Portfolio";
 // import Testimonials from "./components/testimonials/Testimonials";
 import Process from "./components/process/Process";
