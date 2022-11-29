@@ -3,7 +3,16 @@ import React from "react";
 import classes from "src/pages/components/work/Work.module.css";
 import { FaGithub } from "react-icons/fa";
 
-const WorksItems = ({ item }: { item: any }) => {
+type ITEM = {
+  id: number;
+  image: string;
+  title: string;
+  github: string;
+  demo: string;
+  category: string;
+};
+
+const WorksItems = ({ item }: { item: ITEM }) => {
   return (
     <div className={classes.work__card} key={item.id}>
       <div className={classes.work__img}>
