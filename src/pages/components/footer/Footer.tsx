@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "src/pages/components/footer/Footer.module.css";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 
@@ -36,14 +36,29 @@ const Footer = () => {
       </ul>
 
       <div className={classes.footer__socials}>
-        <a href="https://facebook.com">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://inatagram.com">
+        <a
+          href="https://inatagram.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
           <IoLogoTwitter />
+        </a>
+        <a
+          href="https://github.com/t-riku"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FaGithub />
         </a>
       </div>
 
