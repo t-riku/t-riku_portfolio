@@ -1,24 +1,15 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import classes from "src/pages/components/work/Work.module.css";
 import { FaGithub } from "react-icons/fa";
 
-type ITEM = {
+export type ITEM = {
   id: number;
-  image: Image;
+  image: StaticImageData;
   title: string;
   github: string;
   demo: string;
   category: string;
-};
-
-type Image = {
-  blurDataURL: string;
-  blurHeight: number;
-  blurWidth: number;
-  height: number;
-  src: string;
-  width: number;
 };
 
 const WorkItems = ({ item }: { item: ITEM }) => {
