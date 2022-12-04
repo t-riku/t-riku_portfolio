@@ -21,22 +21,15 @@
 }
 
 .work__container {
-  /* display: grid;
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem; */
   display: grid;
   grid-template-columns: repeat(3, max-content);
-  /* grid-template-columns: repeat(3, 1fr); */
+
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
 }
 
 .work__card {
-  /* background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  border-radius: 1rem; */
   background: var(--color-bg-variant);
   padding: 1.3rem;
   border-radius: 2rem;
@@ -51,17 +44,13 @@
 
 .work__img {
   margin-bottom: 1rem;
-  /* border-radius: 1rem;
+  border-radius: 1rem;
   height: 15rem;
   overflow: hidden;
-  margin-bottom: 1rem; */
-  /* border-radius: 1.5rem;
-  height: 15rem;
-  overflow: hidden; */
 }
 
 .work__img img {
-  width: 250px;
+  width: 100%;
   height: auto;
   aspect-ratio: 1/1;
   border-radius: 1.1rem;
@@ -104,7 +93,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .work__container {
-    /* grid-template-columns: repeat(2, max-content); */
+    grid-template-columns: repeat(2, max-content);
     gap: 1.25rem;
   }
 
@@ -112,10 +101,10 @@
     padding: 1rem;
   }
 
-  .work__img {
+  /* .work__img {
     margin-bottom: 0.75rem;
     width: 200px;
-  }
+  } */
 
   .work__title {
     margin-bottom: 0.25rem;
@@ -125,21 +114,14 @@
 /* For medium deveces */
 @media screen and (max-width: 768px) {
   .work__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 576px) {
-  /* .work__container {
+  .work__container {
     grid-template-columns: 1fr;
-    grid-template-columns: max-content;
-  } */
-
-  .work__img {
-    /* width: 200px; */
-    width: 40vw;
-    height: auto;
-    aspect-ratio: inherit;
+    /* grid-template-columns: max-content; */
   }
 }
 
