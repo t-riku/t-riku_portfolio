@@ -13,7 +13,6 @@ export type ITEM = {
 };
 
 const WorkItems = ({ item }: { item: ITEM }) => {
-  console.log(item);
   return (
     <div className={classes.work__card} key={item.id}>
       <div className={classes.work__img}>
