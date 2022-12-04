@@ -5,6 +5,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import Image from "next/image";
+import MeModal from "../modal/Modal";
 
 const About = () => {
   return (
@@ -53,9 +54,7 @@ const About = () => {
           </p>
 
           <div className={classes.cta}>
-            <a href="#portfolio" className="btn">
-              More
-            </a>
+            <MeModal />
 
             <a href="#contact" className="btn btn-primary">
               Let&apos;s Contact
