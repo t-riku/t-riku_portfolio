@@ -7,13 +7,10 @@ const Work = () => {
     <section id="work">
       <h5>work</h5>
       <h2>My Portfolio</h2>
-
-      {/* <div className="container">
-        <div className={classes.work__container}>
-          <Works />
-        </div>
+      {/* <div className={`container ${classes.work__container}`}>
+        <Works />
       </div> */}
-      <div className={`container ${classes.work__container}`}>
+      <div className="container">
         <Works />
       </div>
     </section>

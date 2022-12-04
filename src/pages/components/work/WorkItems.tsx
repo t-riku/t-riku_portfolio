@@ -12,7 +12,7 @@ type ITEM = {
   category: string;
 };
 
-const WorksItems = ({ item }: { item: ITEM }) => {
+const WorkItems = ({ item }: { item: ITEM }) => {
   return (
     <div className={classes.work__card} key={item.id}>
       <div className={classes.work__img}>
@@ -51,4 +51,4 @@ const WorksItems = ({ item }: { item: ITEM }) => {
   );
 };
 
-export default WorksItems;
+export default WorkItems;
