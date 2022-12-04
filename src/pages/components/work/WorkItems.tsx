@@ -5,18 +5,28 @@ import { FaGithub } from "react-icons/fa";
 
 type ITEM = {
   id: number;
-  image: string;
+  image: Image;
   title: string;
   github: string;
   demo: string;
   category: string;
 };
 
+type Image = {
+  blurDataURL: string;
+  blurHeight: number;
+  blurWidth: number;
+  height: number;
+  src: string;
+  width: number;
+};
+
 const WorkItems = ({ item }: { item: ITEM }) => {
+  console.log(item);
   return (
     <div className={classes.work__card} key={item.id}>
       <div className={classes.work__img}>
-        <Image src={item.image} width={313} height={313} alt={item.title} />
+        <Image src={item.image.src} width={313} height={313} alt={item.title} />
       </div>
 
       <h3 className={classes.work__title}>{item.title}</h3>
