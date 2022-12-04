@@ -1,10 +1,10 @@
 .nav {
-  background: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   /* widthがコンテンツの最大の幅になる。便利。 */
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
-  z-index: 9999;
+  z-index: 5000;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -16,7 +16,7 @@
 }
 
 .nav a {
-  background: transparent;
+  background-color: transparent;
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
@@ -29,8 +29,8 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* クリックした時 */
+/* クリックした時にアクティブがつく */
 .nav a.active {
-  background: var(--color-primary);
+  background-color: var(--color-primary);
   color: var(--color-bg);
 }

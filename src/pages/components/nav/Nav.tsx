@@ -13,23 +13,24 @@ const Nav = () => {
   return (
     <nav className={classes.nav}>
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        href="#header"
+        onClick={() => setActiveNav("#header")}
+        // className={activeNav === "#" ? "active" : ""}
+        className={activeNav === "#header" ? classes.active : ""}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        className={activeNav === "#about" ? classes.active : ""}
       >
         <AiOutlineUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        href="#work"
+        onClick={() => setActiveNav("#work")}
+        className={activeNav === "#work" ? classes.active : ""}
       >
         <BiBook />
       </a>
@@ -43,7 +44,7 @@ const Nav = () => {
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact " ? "active" : ""}
+        className={activeNav === "#contact" ? classes.active : ""}
       >
         <BiMessageSquareDetail />
       </a>
