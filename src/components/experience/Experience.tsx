@@ -1,6 +1,10 @@
 import React from "react";
 import classes from "src/components/experience/Experience.module.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import ExperienceItems from "./ExperienceItems";
+import FrontendData from "../../Data/experience/FrontendData";
+import BackendData from "../../Data/experience/BackendData";
+import OthersData from "../../Data/experience/OthersData";
 
 const Experience = () => {
   return (
@@ -9,145 +13,33 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className={`container ${classes.experience__container}`}>
+        {/* ==========Frontend========= */}
         <div className={classes.experience__frontend}>
           <h3>Frontend Development</h3>
           <div className={classes.experience__content}>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>HTMl</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>CSS</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>JavaScript</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Bootstrap</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Tailwind</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>React</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+            {FrontendData.map((item) => {
+              return <ExperienceItems item={item} key={item.id} />;
+            })}
           </div>
         </div>
+
+        {/* ==========Backend========= */}
         <div className={classes.experience__backend}>
           <h3>Backend Development</h3>
           <div className={classes.experience__content}>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Node JS</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>MongoDB</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>PHP</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>MySQL</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Python</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+            {BackendData.map((item) => {
+              return <ExperienceItems item={item} key={item.id} />;
+            })}
           </div>
         </div>
+
+        {/* ==========Others========= */}
         <div className={classes.experience__others}>
           <h3>Others</h3>
           <div className={classes.experience__content}>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Github</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Illustrator</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Photoshop </h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Figma</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Slack</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>UI/UX</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details__icon} />
-              <div>
-                <h4>Slack</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+            {OthersData.map((item) => {
+              return <ExperienceItems item={item} key={item.id} />;
+            })}
           </div>
         </div>
       </div>
