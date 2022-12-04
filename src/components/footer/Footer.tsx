@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/pages/components/footer/Footer.module.css";
+import classes from "src/components/footer/Footer.module.css";
 import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";

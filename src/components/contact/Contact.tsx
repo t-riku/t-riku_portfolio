@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useState } from "react";
-import classes from "src/pages/components/contact/Contact.module.css";
+import classes from "src/components/contact/Contact.module.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { send } from "emailjs-com";

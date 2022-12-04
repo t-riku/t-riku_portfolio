@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import classes from "src/pages/components/work/Work.module.css";
+import classes from "src/components/work/Work.module.css";
 import { FaGithub } from "react-icons/fa";
 
 export type ITEM = {

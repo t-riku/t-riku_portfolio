@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/pages/components/about/About.module.css";
+import classes from "src/components/about/About.module.css";
 import ME from "public/assets/taka.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";

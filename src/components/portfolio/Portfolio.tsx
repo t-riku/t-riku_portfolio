@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/pages/components/portfolio/Portfolio.module.css";
+import classes from "src/components/portfolio/Portfolio.module.css";
 import IMG1 from "public/assets/portfolio/1.jpg";
 import IMG2 from "public/assets/portfolio/2.jpg";
 import IMG3 from "public/assets/portfolio/3.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Header.module.css";
+import classes from "src/components/header/Header.module.css";
 import { FaGithub, FaSchool } from "react-icons/fa";
 import { BsHouseFill } from "react-icons/bs";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/pages/components/header/Header.module.css";
+import classes from "src/components/header/Header.module.css";
 // import CTA from "src/pages/components/header/CTA";
 import ME from "public/assets/me.png";
 import Image from "next/image";

@@ -1,6 +1,6 @@
 import Modal from "react-modal";
 import { useState } from "react";
-import classes from "src/pages/components/modal/Modal.module.css";
+import classes from "src/components/modal/Modal.module.css";
 import Image from "next/image";
 import ME from "public/assets/taka.jpg";
 import { FaFacebookF } from "react-icons/fa";

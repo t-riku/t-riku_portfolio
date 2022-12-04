@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "src/pages/components/header/Header.module.css";
+import classes from "src/components/header/Header.module.css";
 
 const CTA = () => {
   return (
