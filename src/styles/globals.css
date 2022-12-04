@@ -91,6 +91,13 @@ a:hover {
   cursor: pointer;
 }
 
+a,
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -118,6 +125,23 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+/* ==============modal================ */
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 800ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
