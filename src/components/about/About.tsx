@@ -5,7 +5,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import Image from "next/image";
-import MeModal from "../modal/Modal";
+import MeModal from "../modal/MeModal";
 
 const About = () => {
   return (
