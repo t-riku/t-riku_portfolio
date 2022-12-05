@@ -45,7 +45,9 @@ const Works = () => {
         })}
       </div>
 
-      <div className={`container ${classes.work__container}`}>
+      <div className={classes.work__container}>
+        {/* <div className={`container ${classes.work__container}`}> */}
+
         {projects.map((item) => {
           return <WorkItems item={item} key={item.id} />;
         })}
