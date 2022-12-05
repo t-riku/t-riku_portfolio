@@ -61,8 +61,13 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  padding-top: 5rem;
+  margin-top: 4rem;
   /* height: 100vh; */
+}
+
+section:last-of-type {
+  margin-bottom: 13rem;
 }
 
 section > h2,
