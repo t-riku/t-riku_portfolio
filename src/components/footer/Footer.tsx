@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
 
       <div className={classes.footer__copyright}>
-        <small>&copy; t-riku Portfolio Demo Site. All Right Reserved.</small>
+        <small>&copy; t-riku Portfolio Site. All Right Reserved.</small>
       </div>
     </footer>
   );

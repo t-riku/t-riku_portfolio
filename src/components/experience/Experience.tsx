@@ -13,6 +13,7 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className={`container ${classes.experience__container}`}>
+        {/* <div className={classes.experience__container}> */}
         {/* ==========Frontend========= */}
         <div className={classes.experience__frontend}>
           <h3>Frontend Development</h3>
