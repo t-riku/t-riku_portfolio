@@ -16,44 +16,44 @@ const frontendData = [
   {
     id: 3,
     title: "JavaScript",
-    category: "JavaScript",
+    category: "JS",
     level: "Advanced",
   },
   {
     id: 4,
-    title: "Bootstrap",
-    category: "CSS",
-    level: "Advanced",
-  },
-  {
-    id: 5,
-    title: "Tailwind",
-    category: "CSS",
-    level: "Advanced",
-  },
-  {
-    id: 6,
-    title: "React",
-    category: "JavaScript",
-    level: "Advanced",
-  },
-  {
-    id: 7,
-    title: "Next",
-    category: "JavaScript",
-    level: "Advanced",
-  },
-  {
-    id: 8,
     title: "Sass",
     category: "CSS",
     level: "Advanced",
   },
   {
-    id: 9,
-    title: "jQuery",
-    category: "JavaScript",
+    id: 5,
+    title: "Bootstrap",
+    category: "CSS",
     level: "Advanced",
+  },
+  {
+    id: 6,
+    title: "Tailwind",
+    category: "CSS",
+    level: "Intermedeate",
+  },
+  {
+    id: 7,
+    title: "jQuery",
+    category: "JS",
+    level: "Basic",
+  },
+  {
+    id: 8,
+    title: "React",
+    category: "CSS",
+    level: "Advanced",
+  },
+  {
+    id: 9,
+    title: "NextJS",
+    category: "JS",
+    level: "Intermedeate",
   },
 ];
 

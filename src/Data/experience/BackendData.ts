@@ -4,7 +4,7 @@ const backendData = [
   {
     id: 1,
     title: "Node JS",
-    category: "JavaScript",
+    category: "JS",
     level: "Advanced",
   },
   {
@@ -16,7 +16,7 @@ const backendData = [
   {
     id: 3,
     title: "PHP",
-    category: "JavaScript",
+    category: "JS",
     level: "Advanced",
   },
   {
