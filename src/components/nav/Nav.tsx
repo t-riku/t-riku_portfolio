@@ -3,8 +3,9 @@ import classes from "src/components/nav/Nav.module.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { GiHorizonRoad, GiSkills } from "react-icons/gi";
+
 import { useState } from "react";
 
 const Nav = () => {
@@ -28,6 +29,13 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? classes.active : ""}
+      >
+        <GiSkills />
+      </a>
+      <a
         href="#work"
         onClick={() => setActiveNav("#work")}
         className={activeNav === "#work" ? classes.active : ""}
@@ -35,11 +43,12 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#process"
+        onClick={() => setActiveNav("#process")}
+        className={activeNav === "#process" ? classes.active : ""}
       >
-        <RiServiceLine />
+        <GiHorizonRoad />
+        {/* <GrNetwork /> */}
       </a>
       <a
         href="#contact"
