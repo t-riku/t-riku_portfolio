@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 import classes from "src/components/work/Work.module.css";
 import { FaGithub } from "react-icons/fa";
+import WorkModal from "src/components/modal/WorkModal";
 
 export type ITEM = {
   id: number;
@@ -21,15 +22,9 @@ const WorkItems = ({ item }: { item: ITEM }) => {
 
       <h3 className={classes.work__title}>{item.title}</h3>
       <div className={classes.work__cta}>
-        {/* modalwindowにする */}
-        <a
-          href={item.github}
-          className="btn"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          More
-        </a>
+        {/* ========modalwindow========= */}
+        <WorkModal />
+
         <a
           href={item.demo}
           className="btn btn-primary"

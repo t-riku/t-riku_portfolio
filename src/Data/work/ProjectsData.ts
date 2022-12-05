@@ -15,6 +15,8 @@ const projectsData = [
     github: "https://github.com/t-riku/t-riku_portfolio",
     demo: "https://www.arttada.com/",
     category: "web",
+    text: "test",
+    tool: "React",
   },
   {
     id: 2,
