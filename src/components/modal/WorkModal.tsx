@@ -71,6 +71,7 @@ const WorkModal = () => {
             style={customStyles}
             shouldCloseOnEsc={true}
             shouldCloseOnOverlayClick={true}
+            key={index}
           >
             <div className={classes.modal}>
               <div className={classes.modal__content} key={item.id}>
