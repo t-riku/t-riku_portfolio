@@ -2,7 +2,7 @@ import Modal from "react-modal";
 import { useState } from "react";
 import classes from "src/components/modal/Modal.module.css";
 import Image from "next/image";
-import ME from "public/assets/taka.jpg";
+import ME from "public/assets/me/IMG_1304.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
