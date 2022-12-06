@@ -126,6 +126,7 @@
 .modal__btn__close:hover {
   /* マウスオーバー時のスタイル */
   transform: rotate(180deg);
+  background-color: #545469;
 }
 
 .modal__btn__close__bottom {
@@ -143,20 +144,106 @@
   background-color: #545469;
 }
 
+/* ============WorkModal=============== */
+.modal__content__left .work__description p,
+.modal__content__left .work__languages_tools ul {
+  margin: 0 15px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: -1.5px -1.5px 3px rgba(255, 255, 255, 0.95) inset,
+    1px 1px 4px rgba(32, 64, 128, 0.2) inset;
+  background-color: darken(#f1f3f6, 3);
+}
+
+.modal__content__left .work__description h3,
+.modal__content__left .work__languages_tools h3 {
+  position: relative;
+  text-align: center;
+}
+
+.modal__content__left .work__description h3::before,
+.modal__content__left .work__languages_tools h3::before {
+  content: "";
+  display: block;
+  border-top: solid 1px #ddd;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.modal__content__left .work__description h3 span,
+.modal__content__left .work__languages_tools h3 span {
+  background: var(--color-white);
+  padding: 0 10px;
+  position: relative;
+  z-index: 5;
+}
+
+.work__description h3,
+.work__languages_tools h3 {
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+.work__category_time {
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.work__category_time ul {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: right;
+}
+
+.work__languages_tools h3 {
+  margin-bottom: 1rem;
+}
+
+.work__modal__btn {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* .work__languages_tools h3 {
+  font-weight: bold;
+} */
+
 /* ============BREAK POINTS=============== */
 /* For large devices */
 @media screen and (max-width: 992px) {
   .modal__content {
     grid-template-columns: 1fr;
+    gap: 4rem;
   }
 
   .modal__img {
     width: 100%;
   }
+  .work__modal__btn {
+    justify-content: end;
+    margin-right: 1rem;
+  }
 }
 
 /* For medium deveces */
-/* @media screen and (max-width: 768px) {
-  .modal__content__right {
+@media screen and (max-width: 768px) {
+  .modal__content__left .work__description p,
+  .modal__content__left .work__languages_tools ul {
+    margin: 0;
+    padding: 25px 10px;
+    border-radius: 10px;
   }
-} */
+
+  .work__modal__btn {
+    justify-content: start;
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+}
