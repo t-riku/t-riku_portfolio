@@ -37,6 +37,12 @@ const backendData = [
     category: "CSS",
     level: "Advanced",
   },
+  {
+    id: 7,
+    title: "Firebase",
+    category: "DB",
+    level: "Advanced",
+  },
 ];
 
 export default backendData;

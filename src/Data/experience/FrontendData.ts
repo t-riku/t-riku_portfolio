@@ -45,15 +45,34 @@ const frontendData = [
   },
   {
     id: 8,
+    title: "Typescript",
+    category: "JS",
+    level: "Intermedeate",
+  },
+  {
+    id: 9,
     title: "React",
     category: "CSS",
     level: "Advanced",
   },
   {
-    id: 9,
+    id: 10,
     title: "NextJS",
     category: "JS",
     level: "Intermedeate",
+  },
+
+  {
+    id: 11,
+    title: "VueJS",
+    category: "JS",
+    level: "Basic",
+  },
+  {
+    id: 12,
+    title: "UI / UX",
+    category: "design",
+    level: "Advanced",
   },
 ];
 
