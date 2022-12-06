@@ -73,6 +73,11 @@
   margin-bottom: 1rem;
 }
 
+.work__livedemo:hover {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
 .work__github {
   background: var(--color-bg);
   color: var(--color-white);
