@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "src/components/about/About.module.css";
-import ME from "public/assets/taka.jpg";
+import ME from "public/assets/me/IMG_1304.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
