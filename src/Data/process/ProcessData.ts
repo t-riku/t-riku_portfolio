@@ -1,9 +1,9 @@
 import IMG1 from "public/assets/me/IMG_72CC83C4CCF6-1.jpeg";
 import IMG2 from "public/assets/me/IMG_1361.jpg";
+import IMG3 from "public/assets/me/IMG_0123.jpg";
 import IMG4 from "public/assets/me/IMG_1263.png";
-import IMG5 from "public/assets/me/IMG_1364.JPG";
+import IMG5 from "public/assets/me/IMG_1364.jpg";
 import IMG6 from "public/assets/me/IMG_0793.png";
-import IMG3 from "public/assets/me/IMG_0123.JPG";
 
 const processData = [
   {
