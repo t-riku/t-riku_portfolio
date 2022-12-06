@@ -20,7 +20,7 @@ const Works = () => {
     }
   }, [item]);
 
-  const handleClick = (e: any, index: any) => {
+  const handleClick = (e: any, index: number) => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
   };
@@ -46,8 +46,6 @@ const Works = () => {
       </div>
 
       <div className={classes.work__container}>
-        {/* <div className={`container ${classes.work__container}`}> */}
-
         {projects.map((item) => {
           return <WorkItems item={item} key={item.id} />;
         })}

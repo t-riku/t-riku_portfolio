@@ -34,11 +34,11 @@ const customStyles: any = {
 Modal.setAppElement("#__next");
 
 const WorkModal = () => {
-  const [modalIsOpen, setIsOpen] = useState<boolean>(false);
+  const [modalIsOpen, setIsOpen] = useState<number | boolean>(false);
 
   // モーダルを開く処理
-  const openModal = () => {
-    setIsOpen(true);
+  const openModal = (num: any) => {
+    setIsOpen(num);
   };
 
   const afterOpenModal = () => {
@@ -52,25 +52,27 @@ const WorkModal = () => {
 
   return (
     <>
-      <a onClick={openModal} className="btn">
+      {/* <a onClick={() => openModal(0)} className="btn">
         More
-      </a>
+      </a> */}
 
-      <Modal
-        closeTimeoutMS={200}
-        contentLabel="modal"
-        // isOpenがtrueならモダールが起動する
-        isOpen={modalIsOpen}
-        // モーダルが開いた後の処理を定義
-        onAfterOpen={afterOpenModal}
-        // モーダルを閉じる処理を定義
-        onRequestClose={closeModal}
-        // スタイリングを定義
-        style={customStyles}
-      >
-        <div className={classes.modal}>
-          {projectsData.map((item) => {
-            return (
+      {projectsData.map((item, index) => {
+        return (
+          <Modal
+            closeTimeoutMS={200}
+            contentLabel="modal"
+            // isOpenがtrueならモダールが起動する
+            isOpen={modalIsOpen === index}
+            // モーダルが開いた後の処理を定義
+            onAfterOpen={afterOpenModal}
+            // モーダルを閉じる処理を定義
+            onRequestClose={() => closeModal()}
+            // スタイリングを定義
+            style={customStyles}
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={true}
+          >
+            <div className={classes.modal}>
               <div className={classes.modal__content} key={item.id}>
                 <div className={classes.modal__content__left}>
                   <div className={classes.work__description}>
@@ -86,22 +88,22 @@ const WorkModal = () => {
                 </div>
                 <div className={classes.modal__content__right}>test2</div>
               </div>
-            );
-          })}
 
-          <button
-            onClick={closeModal}
-            className={classes.modal__btn__close__bottom}
-          >
-            CLOSE
-          </button>
+              <button
+                onClick={closeModal}
+                className={classes.modal__btn__close__bottom}
+              >
+                CLOSE
+              </button>
 
-          <button
-            onClick={closeModal}
-            className={classes.modal__btn__close}
-          ></button>
-        </div>
-      </Modal>
+              <button
+                onClick={closeModal}
+                className={classes.modal__btn__close}
+              ></button>
+            </div>
+          </Modal>
+        );
+      })}
     </>
   );
 };
