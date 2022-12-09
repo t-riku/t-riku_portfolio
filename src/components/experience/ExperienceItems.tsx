@@ -14,7 +14,17 @@ export type ITEM = {
 const WorkItems = ({ item }: { item: ITEM }) => {
   return (
     <article className={classes.experience__details} key={item.id}>
-      <BsPatchCheckFill className={classes.experience__details__icon} />
+      <BsPatchCheckFill
+        className={
+          item.level === "Basic"
+            ? classes.experience__details__icon__basic
+            : item.level === "Intermedeate"
+            ? classes.experience__details__icon__intermedeate
+            : item.level === "Advanced"
+            ? classes.experience__details__icon__advanced
+            : ""
+        }
+      />
       {/* levelの熟練度によってiconの色を変えたい。三項演算子（if文）でclassを付け替え、
       色をかえる。{level==="Advance" ? {classes.activeBlue}:""}みたいな */}
       <div>

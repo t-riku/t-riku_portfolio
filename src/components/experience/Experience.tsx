@@ -13,7 +13,6 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className={`container ${classes.experience__container}`}>
-        {/* <div className={classes.experience__container}> */}
         {/* ==========Frontend========= */}
         <div className={classes.experience__frontend}>
           <h3>Frontend Development</h3>
@@ -42,6 +41,26 @@ const Experience = () => {
               return <ExperienceItems item={item} key={item.id} />;
             })}
           </div>
+        </div>
+      </div>
+      <div className={`container ${classes.experience__icon__description}`}>
+        <div className={classes.experience__icon__description__item}>
+          <BsPatchCheckFill
+            className={classes.experience__details__icon__advanced}
+          />
+          : Advanced
+        </div>
+        <div className={classes.experience__icon__description__item}>
+          <BsPatchCheckFill
+            className={classes.experience__details__icon__intermedeate}
+          />
+          : Intermedeate
+        </div>
+        <div className={classes.experience__icon__description__item}>
+          <BsPatchCheckFill
+            className={classes.experience__details__icon__basic}
+          />
+          : Basic
         </div>
       </div>
     </section>

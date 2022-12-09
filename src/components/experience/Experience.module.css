@@ -20,7 +20,9 @@
   grid-row: 2 / 3;
 }
 
-.experience__container > div {
+.experience__frontend,
+.experience__backend,
+.experience__others {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
@@ -55,9 +57,21 @@
   gap: 1rem;
 }
 
-.experience__details__icon {
+/* .experience__details__icon {
   margin-top: 6px;
   color: var(--color-primary);
+} */
+.experience__details__icon__basic {
+  margin-top: 6px;
+  color: #fff;
+}
+.experience__details__icon__intermedeate {
+  margin-top: 6px;
+  color: rgb(249, 119, 49);
+}
+.experience__details__icon__advanced {
+  margin-top: 6px;
+  color: #f70f0f;
 }
 
 .experience__details h4 {
@@ -68,6 +82,19 @@
   /* smallよりもさらに小さい */
   font-size: xx-small;
   padding-left: 0.5rem;
+}
+
+.experience__icon__description {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+.experience__icon__description__item {
+  display: flex;
+  gap: 0.3rem;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
