@@ -27,9 +27,9 @@ const othersData = [
   },
   {
     id: 5,
-    title: "Adobe XD",
-    category: "design",
-    level: "Basic",
+    title: "Notion",
+    category: "efficiency",
+    level: "Intermediate",
   },
   {
     id: 6,

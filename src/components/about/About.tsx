@@ -36,7 +36,7 @@ const About = () => {
             <article className={classes.about__card}>
               <FiUsers className={classes.about__icon} />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>4+ clients</small>
             </article>
             <article className={classes.about__card}>
               <VscFolderLibrary className={classes.about__icon} />
@@ -50,7 +50,8 @@ const About = () => {
             大学2年生の4月に親戚の法務事務所のWebサイトを制作し初めて世の中に自身の制作物を公開した。
             大学2年生の終わり、3月に親の建築事務所のWebサイトを制作し公開。
             大学3年生では改めてリデザインをしReactを用いて制作した。
-            最近はNext.jsに熱中している。
+            近頃はWebサイトだけでなくNext
+            JSとTypescriptを用いてアプリケーション開発をしている。
           </p>
 
           <div className={classes.cta}>

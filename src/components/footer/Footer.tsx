@@ -19,16 +19,13 @@ const Footer = () => {
           <a href="#about">ABOUT</a>
         </li>
         <li>
+          <a href="#work">PORTFOLIO</a>
+        </li>
+        <li>
           <a href="#experience">EXPERIENCE</a>
         </li>
         <li>
-          <a href="#services">SERVICES</a>
-        </li>
-        <li>
-          <a href="#portfolio">PORTFOLIO</a>
-        </li>
-        <li>
-          <a href="#testimonials">TESTIMONIALS</a>
+          <a href="#process">PROCESS</a>
         </li>
         <li>
           <a href="#contact">CONTACT</a>
