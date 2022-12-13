@@ -52,7 +52,7 @@ const frontendData = [
   {
     id: 9,
     title: "React",
-    category: "CSS",
+    category: "JS",
     level: "Advanced",
   },
   {

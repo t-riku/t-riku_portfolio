@@ -4,11 +4,13 @@ import Work3 from "public/assets/portfolio/arttada__fullsize.png";
 import Work4 from "public/assets/portfolio/yamashitaOffice__fullsize.png";
 import Work5 from "public/assets/portfolio/oneokrock__fullsize.png";
 import Work6 from "public/assets/portfolio/dhu_hp-redesign__fullsize.png";
-import Work7 from "public/assets/portfolio/weather-app__fullsize.png";
+import Work7 from "public/assets/portfolio/pokemon-app__fullsize.png";
 import Work8 from "public/assets/portfolio/imgSearch-app__fullsize.png";
 import Work9 from "public/assets/portfolio/memo-app__fullsize.png";
 import Work10 from "public/assets/portfolio/loginValidation-app__fullsize.png";
 import Work11 from "public/assets/portfolio/catImg-app__fullsize.png";
+import Work12 from "public/assets/portfolio/weather-app__fullsize.png";
+import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
 
 // ========== PORTFOLIO DATA ==========
 
@@ -24,7 +26,7 @@ const projectsData = [
     // category: "web" && "design",
     // category: "web" || "design",
     time: "2022.11",
-    text: "test",
+    text: "これはYouTubeのReactでポートフォリオを制作する動画を参考にそれをNextJSで作ってみました。ポートフォリオセクションではall,web,app,designを切り替えれるようにして、モーダルも配置しました。またImgタグやサーバーサイドレンダリング(SSR)を用いてユーザ体験が良くなるようにしました。",
     tool: ["Next JS", " TypeScript ", " Module CSS "],
     images: [
       {
@@ -49,7 +51,7 @@ const projectsData = [
     demo: "https://www.arttada.com/",
     category: "Web",
     time: "2022.6",
-    text: "test",
+    text: "前のサイトをリメイクすることとなった経緯としては僕が大学の課題で作成したデジタルハリウッド大学のweb専攻のWebページをリデザインしたサイトを両親に見せたところ、大変気に入って「うちのもこんなデザインにしてよ！」と言ってくれたので思い切ってリメイクしたものです。機能としては元のホームページに無かったコンタクトセクションを追加し、サイト内から直接メールを送れるようにしました。後は音楽をつけたり、建築関係のWebサイトにとべるセクションを追加しました。トップページは離脱率が減りそうなインパクトのあるものが良いということで、その時に完成間近だった南房総の家をドローンで撮影してもらいそれをトップページに載せました。またすぐに今まで作ってきたものを見てもらいたいしお客さんもそうだろうということで、トップページの下に作品集を配置しました。それ以外のところは写真、動画に黒いオーバーレイをかけてスタイリッシュなリッチに見えるような効果を出しました。デザインは前に作ったdhu webとONEOKROCK webを元に作り、様々な要素を加えました。公開してからこのWebサイトを見て来てくれて両親のお仕事に繋がったときはやりがいを覚えました。今後も細かいところを修正して管理します。",
     tool: [
       "React",
       " Javascript ",
@@ -81,7 +83,7 @@ const projectsData = [
     demo: "https://www.arttada.com/",
     category: "Web",
     time: "2022.3",
-    text: "test",
+    text: "僕の両親が建築士で事務所を持っています。僕の兄もエンジニアでcmsでホームページを作ったのですが、細かいところがどうしても修正が効かなかったり、更新が大変で困っていました。そこでReactを丁度勉強していた僕は兄からReactに移行してみたらと言われ、確かにと思い勉強がてらに移行してみました。firebaseでサーバーは管理して更新も行えるようにしました。初めてのReactチュートリアル以降での制作物だったのでjsx記法、ルーター、コンポーネント、どのモジュールを使えばいいのかなど戸惑いましたがトライアンドエラーを繰り返しアウトプットしたことでReactの基礎が身につきました。またfirebaseも扱えるようになりました。",
     tool: [
       "React",
       " Javascript ",
@@ -145,7 +147,7 @@ const projectsData = [
     demo: "https://www.arttada.com/",
     category: "Web",
     time: "2022.5",
-    text: "test",
+    text: "僕はロックバントのONEOKROCKが大好きなのですが、当時ONEOKROCKのWebサイトを見たところ（2022年5月）正直全然かっこよくないなって思い、自分だったらこう作るなというWebサイトを作ってみました。(現在の公式サイトはリニューアルされてます)。まず僕のONEOKROCKの好きなところはLIVEのカッコ良さです。その良さを知ってもらうために最初のトップページはLIVE映像のMIXを表示し目を引くようにしました。そして、僕のONEOKROCKのイメージは赤と黒なのでそのカラーを基調に制作しました。全体的にスタイリッシュなデザインにして、リッチに見せるためにグラデーションを頻繁に使いました。どんな風にすればカッコよく思えてもらえるかを考えながら作ったので、ユーザー目線で見るという考えが身につきました。また初めてモーダルを導入したり初めて使うCSSの技術も多くてかなり勉強になりました。改めてコードをかなり読みづらくごちゃごちゃしていたので今後時間がある時に、リファクタリングやReactへの移行もしたいなと考えています。",
     tool: ["HTML", " SASS ", " JavaScript ", " Bootstrap ", " Micromodal.js "],
     images: [
       {
@@ -170,7 +172,7 @@ const projectsData = [
     demo: "https://www.arttada.com/",
     category: "Web",
     time: "2022.6",
-    text: "test",
+    text: "ターゲットは「新しく学校に入学しようかなと考えている受験生」を意識して作りました。これは大学の授業内の課題で僕が通っているデジタルハリウッド大学の公式サイトのweb専攻のページをリデザインしシングルページで作るという課題でした。元の公式サイトは白と黒を基調としていたデザインなのですが、スクロールしていて楽しいワクワクする気持ちになるように色を足してカラフルにし、かつカッコよくスタイリッシュで読みやすいようなデザインにしました。離脱率を下げ、惹きつけるためにトップページで動画を使用しました。またデジタルハリウッド大学はクリエイティブを謳っている大学なのでトップページのテキストは「クリエイティブな自分へ」と新しく入ってくるクリエイティブな事を学びたい学生が惹き付けられるようなテキストにしました。この課題に取り組む前にONEOKROCKのWebサイトも作っていて、目指すデザインが同じだったことからいくつか同じのを引っ張ってきてアレンジを加えました。このホームページを両親に見せた時にすごく反応が良くて、今の多田設計事務所のリメイクのデザインの元になっています。",
     tool: ["HTML", " SASS ", " JavaScript ", " Bootstrap "],
     images: [
       {
@@ -190,13 +192,13 @@ const projectsData = [
   {
     id: 7,
     image: Work7,
-    title: "Weather app",
-    github: "https://github.com/t-riku/react__weather-app",
+    title: "Pokemon app",
+    github: "https://github.com/t-riku/pokemon-app",
     demo: "https://www.arttada.com/",
     category: "App",
-    time: "2022.6",
-    text: "OpenWeather APIを使って都市の天気の情報をとってきて表示するアプリケーションを作成しました。WeatherコンポーネントからAPI経由でOpenWeatherサービスから天気情報を取得して、6つの都市の天気情報をブラウザ上に表示させています。ReactとTailwind CSSフレームワークを使い天気のアプリケーション作成を通してTailwind CSSの設定方法・使い方、React Hooksの使い方(useState, useEffect)、Fetch関数、コンポーネントへのpropsの渡し方などのReactの基本的な使い方を学ぶことができました。",
-    tool: ["React", " Tailwind CSS ", " OpenWeather API ", " day.js "],
+    time: "2022.12",
+    text: "",
+    tool: ["React", " CSS "],
     images: [
       {
         original: "",
@@ -320,14 +322,39 @@ const projectsData = [
   },
   {
     id: 12,
-    image: Work10,
-    title: "Weather app React Native ver",
-    github: "https://github.com/t-riku/react__login-app/tree/master",
+    image: Work12,
+    title: "Weather app",
+    github: "https://github.com/t-riku/react__weather-app",
     demo: "https://www.arttada.com/",
     category: "App",
-    time: "2022.11",
-    text: "フォームを送信する際にバリデーションチェックをかけて正しく入力されていたらログインが通るフォームを作成しました。バリデーションチェックの仕方、if文の条件分岐、三項演算子を学びました。",
-    tool: ["Next", " Typescript ", " Module CSS "],
+    time: "2022.6",
+    text: "OpenWeather APIを使って都市の天気の情報をとってきて表示するアプリケーションを作成しました。WeatherコンポーネントからAPI経由でOpenWeatherサービスから天気情報を取得して、6つの都市の天気情報をブラウザ上に表示させています。ReactとTailwind CSSフレームワークを使い天気のアプリケーション作成を通してTailwind CSSの設定方法・使い方、React Hooksの使い方(useState, useEffect)、Fetch関数、コンポーネントへのpropsの渡し方などのReactの基本的な使い方を学ぶことができました。",
+    tool: ["React", " Tailwind CSS ", " OpenWeather API ", " day.js "],
+    images: [
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+    ],
+  },
+  {
+    id: 13,
+    image: Work13,
+    title: "月夜のケダモノ",
+    github: "https://github.com/t-riku/dhu_web_02",
+    demo: "https://www.arttada.com/",
+    category: "Web",
+    time: "2021.12",
+    text: "この音楽バーのホームページは大学のチーム課題で作りました。グループは4人いてリーダー、デザイン、コーダーの役割がありました。僕達のグループは人数が1人少なくてデザイン担当が2人だったので僕がコーダーの担当をやらせて貰えました。オンライン授業だったのでコミュニケーションはSlack、LINEでとり、タスク管理はBacklogで管理しました。初めて3人以上のチームでプロジェクトを行ったのですが、チームの力は凄いなと思いました。リーダーが終始まとめてくれたり、デザインの方がフレームワーク、デザインをAdobe XDで作ってくれました。僕は作ってくれたデザインを見てそのままコーディングするだけだったので普段1人でやっている時よりも予定通りに進み助かりました。サイトのコンセプトとしては音楽バーなので黒を基調としてオシャレな感じでデザインのイメージを決めました。",
+    tool: ["HTML", " SASS ", " JavaScript ", " Bootstrap "],
     images: [
       {
         original: "",
