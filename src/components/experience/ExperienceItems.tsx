@@ -6,9 +6,9 @@ export type ITEM = {
   id: number;
   title: string;
   category: string;
+  // リテラル型で特定の文字しか入らなくなる
+  // level: "Basic" | "Advanced" | "Intermedeate";
   level: string;
-  // level: Basic/Advanced/Intermediate;
-  // level = "Basic" | "Advanced" | "Intermedeate"
 };
 
 const WorkItems = ({ item }: { item: ITEM }) => {
