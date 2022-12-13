@@ -63,13 +63,15 @@ const Contact = () => {
     <section className={classes.contact} id="contact">
       <h5>contact</h5>
       <h2>お問い合わせ</h2>
-      <p>
-        最後までご覧いただきありがとうございました。
-        <br />
-        このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。
-        <br />
-        もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。
-      </p>
+      <div className="container">
+        <p>
+          最後までご覧いただきありがとうございました。
+          <br />
+          このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。
+          <br />
+          もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。
+        </p>
+      </div>
 
       <div className={`container ${classes.contact__container}`}>
         <div className={classes.contact__options}>
