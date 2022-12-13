@@ -114,7 +114,9 @@ const MeModal = () => {
                   <FaGithub />
                 </a>
               </div>
-              <p> SNSは大学生以降全く更新しておらず見る専門です。</p>
+              <p className={classes.modal__sns__text}>
+                SNSは大学生以降全く更新しておらず見る専門です。
+              </p>
             </div>
             <div className={classes.modal__content__right}>
               <ul className={classes.aboutMe}>
