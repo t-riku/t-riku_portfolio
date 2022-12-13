@@ -1,6 +1,6 @@
-.modal {
-  overflow: scroll; /* スクロール設定 */
-}
+/* .modal {
+  overflow: scroll; 
+} */
 
 .modal__content {
   display: grid;
@@ -34,6 +34,10 @@
 }
 
 .modal__content__left p {
+  text-align: left;
+}
+
+.modal__content__left .modal__sns__text {
   text-align: center;
 }
 
