@@ -25,8 +25,6 @@ const WorkItems = ({ item }: { item: ITEM }) => {
             : ""
         }
       />
-      {/* levelの熟練度によってiconの色を変えたい。三項演算子（if文）でclassを付け替え、
-      色をかえる。{level==="Advance" ? {classes.activeBlue}:""}みたいな */}
       <div>
         <h4>
           {item.title} <span> / {item.category} </span>
