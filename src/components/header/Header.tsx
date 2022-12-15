@@ -5,6 +5,7 @@ import ME from "public/assets/me.png";
 import Image from "next/image";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+import Switch from "src/components/header/Switch";
 // import HeaderSocials from "src/pages/components/header/HeaderSocials";
 
 const Header = () => {
@@ -13,7 +14,9 @@ const Header = () => {
       <div className={`container ${classes.header__container}`}>
         <h5>Hello I&apos;m</h5>
         <h1>Riku Tada</h1>
-        <h5 className="text-lignt">DHU Student</h5>
+        <h5>DHU Student</h5>
+
+        <Switch />
 
         <CTA />
 
