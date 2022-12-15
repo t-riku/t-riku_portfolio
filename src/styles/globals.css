@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -10,6 +11,7 @@
   text-decoration: none;
 }
 
+/* [data-theme="dark"] */
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -17,12 +19,41 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #ebeaea;
   --color-lignt: rgba(255, 255, 255, 0.6);
+  --color-h5: rgba(255, 255, 255, 0.6);
+  --color-experience: #0481a2;
+  --color-experience-icon: #fff;
+  --color-work-active: #6fcbec;
+  --color-work-hover: #c3dee8;
+  --color-modal-icon: #1f1f38;
+  --color-modal-btn: #2c2c6c;
+  --color-modal-btn-hover: #545469;
 
   --transition: all 0.3s ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+
+  --img-url: url(../../public/assets/pexels-alex-conchillos-3648850.jpg);
+}
+
+[data-theme="light"] {
+  --color-bg: #f4f4f4;
+  --color-bg-variant: #e8e8e8;
+  --color-primary: #00995c;
+  --color-primary-variant: rgba(63, 230, 135, 0.4);
+  --color-white: #272626;
+  --color-lignt: #ece9e9;
+  --color-h5: #8d8b6b;
+  --color-experience: #60a974;
+  --color-experience-icon: #3d3d3d;
+  --color-work-active: #0f8e71;
+  --color-work-hover: #8cd5c3;
+  --color-modal-icon: #00995c;
+  --color-modal-btn: #02653e;
+  --color-modal-btn-hover: #67ba68;
+
+  --img-url: url(../../public/assets/white_001142.jpg);
 }
 
 html {
@@ -34,11 +65,12 @@ html {
 } */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Noto Sans JP", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../../public/assets/pexels-alex-conchillos-3648850.jpg);
+  /* background-image: url(../../public/assets/pexels-alex-conchillos-3648850.jpg); */
+  background-image: var(--img-url);
 }
 
 /* ============ GENEARL STYLES ============= */
@@ -73,12 +105,15 @@ section:last-of-type {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-lignt);
 }
 
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+}
+
+section > h5 {
+  color: var(--color-h5);
 }
 
 .text-light {
@@ -158,12 +193,12 @@ img {
 }
 @media (hover: hover) and (pointer: fine) {
   .image-gallery-thumbnail:hover {
-    border: 4px solid #6a638b !important;
+    border: 4px solid var(--color-modal-btn) !important;
   }
 }
 .image-gallery-thumbnail.active,
 .image-gallery-thumbnail:focus {
-  border: 4px solid var(--color-bg-variant) !important;
+  border: 4px solid var(--color-modal-btn) !important;
 }
 /* .image-gallery-fullscreen-button {
   background: transparent;

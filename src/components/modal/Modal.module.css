@@ -1,7 +1,3 @@
-/* .modal {
-  overflow: scroll; 
-} */
-
 .modal__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,8 +46,8 @@
 }
 
 .modal__socials a {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-modal-icon);
+  color: #ebeaea;
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
@@ -60,8 +56,8 @@
 
 .modal__socials a:hover {
   background: transparent;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
+  color: var(--color-modal-icon);
+  border-color: var(--color-modal-icon);
 }
 
 .modal__content__right .aboutMe,
@@ -90,8 +86,8 @@
 
 .modal__content button {
   padding: 10px 24px;
-  background: #141414;
-  color: var(--color-white);
+  background: var(--color-modal-btn);
+  color: #ebeaea;
 }
 
 .modal__btn__close {
@@ -104,7 +100,7 @@
   z-index: 10000;
   display: block;
   border-radius: 50%;
-  background: var(--color-bg-variant);
+  background: var(--color-modal-btn);
   transition: all 0.5s;
 }
 
@@ -130,11 +126,11 @@
 .modal__btn__close:hover {
   /* マウスオーバー時のスタイル */
   transform: rotate(180deg);
-  background-color: #545469;
+  background-color: var(--color-modal-btn-hover);
 }
 
 .modal__btn__close__bottom {
-  background-color: var(--color-bg-variant);
+  background-color: var(--color-modal-btn);
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -145,7 +141,7 @@
 }
 
 .modal__btn__close__bottom:hover {
-  background-color: #545469;
+  background-color: var(--color-modal-btn-hover);
 }
 
 /* ============WorkModal=============== */
@@ -179,7 +175,7 @@
 
 .modal__content__left .work__description h3 span,
 .modal__content__left .work__languages_tools h3 span {
-  background: var(--color-white);
+  background: #ebeaea;
   padding: 0 10px;
   position: relative;
   z-index: 5;

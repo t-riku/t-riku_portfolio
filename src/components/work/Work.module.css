@@ -16,7 +16,7 @@
 }
 
 .work__item:hover {
-  background-color: #c3dee8;
+  background-color: var(--color-work-hover);
   color: #fff;
 }
 
@@ -88,14 +88,14 @@
 }
 
 .work__github:hover {
-  background: #fff;
+  background: var(--color-white);
   color: var(--color-bg);
   border-color: var(--color-bg);
 }
 
 /* ===============active work=============== */
 .active__work {
-  background-color: #6fcbec;
+  background-color: var(--color-work-active);
   color: #fff;
 }
 
