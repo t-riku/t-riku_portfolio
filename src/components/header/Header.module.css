@@ -191,16 +191,17 @@ input:checked + .slider:before {
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .header {
     height: 68vh;
   }
-}
+} */
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) 携帯サイズ ================= */
 @media (max-width: 600px) {
   .header {
     height: 100vh;
+    padding-top: 3rem;
   }
 
   .header__socials,
