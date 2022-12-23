@@ -370,6 +370,31 @@ const projectsData = [
       },
     ],
   },
+  {
+    id: 14,
+    image: Work7,
+    title: "Pokedex",
+    github: "https://github.com/t-riku/pokedex-app",
+    demo: "https://www.arttada.com/",
+    category: "App",
+    time: "2022.12",
+    text: "Next JSで猫の画像を表示するアプリケーションを作成しました。ボタンを押すとAPI経由で猫の画像を取ってくる簡単な機能に加えて、loading時にサーバーサイドレンダリングによってHOMEコンポーネントのマウント時に猫の画像を取ってきて表示できることによって、ユーザー体験が良いものになっています。このアプリケーションを作ったことによって、サーバーサイドレンダリング（SSR）、NextでのFeach関数の書き方、Module CSSの使い方を学びました。",
+    tool: ["Next JS", " Typescript ", " Module CSS ", " Sass ", " Poke API "],
+    images: [
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+    ],
+  },
 ];
 
 export default projectsData;
