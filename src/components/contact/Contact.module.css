@@ -7,7 +7,7 @@
   font-size: 0.9rem;
   margin-bottom: 3rem;
   text-align: center;
-  color: #979797;
+  color: var(--color-text-gray);
 }
 
 .contact__container {

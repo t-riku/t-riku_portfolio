@@ -27,6 +27,7 @@
   --color-modal-icon: #1f1f38;
   --color-modal-btn: #2c2c6c;
   --color-modal-btn-hover: #545469;
+  --color-text-gray: #c3c3c3;
 
   --transition: all 0.3s ease;
 
@@ -52,6 +53,7 @@
   --color-modal-icon: #00995c;
   --color-modal-btn: #02653e;
   --color-modal-btn-hover: #67ba68;
+  --color-text-gray: #747474;
 
   --img-url: url(../../public/assets/white_001142.jpg);
 }
@@ -165,6 +167,10 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+#work > h2 {
+  margin-bottom: 1.5rem;
 }
 
 /* ==============modal================ */
