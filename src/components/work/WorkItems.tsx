@@ -45,7 +45,7 @@ const customStyles: any = {
     transform: "translate(-50%, -50%)",
     zIndex: "10000",
     boxShadow: "0 5px 16px rgba(0, 0, 0, 0.9)",
-    background: "var(--color-white)",
+    background: "#ebeaea",
     borderRadius: "1rem",
   },
 };
