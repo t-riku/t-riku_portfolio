@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import classes from "src/components/header/Header.module.css";
 
 const Switch = () => {
-  const [lightTheme, setLightTheme] = useState(undefined);
+  const [lightTheme, setLightTheme] = useState<any>("");
 
   const handleToggle = (e: any) => {
     setLightTheme(e.target.checked);
   };
 
   useEffect(() => {
-    if (lightTheme !== undefined) {
+    if (lightTheme !== "") {
       if (lightTheme) {
         document.documentElement.setAttribute("data-theme", "light");
         window.localStorage.setItem("theme", "light");
