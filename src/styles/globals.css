@@ -27,7 +27,7 @@
   --color-modal-icon: #1f1f38;
   --color-modal-btn: #2c2c6c;
   --color-modal-btn-hover: #545469;
-  --color-text-gray: #c3c3c3;
+  --color-text-gray: #cdcdcd;
 
   --transition: all 0.3s ease;
 
@@ -53,7 +53,7 @@
   --color-modal-icon: #00995c;
   --color-modal-btn: #02653e;
   --color-modal-btn-hover: #67ba68;
-  --color-text-gray: #747474;
+  --color-text-gray: #676767;
 
   --img-url: url(../../public/assets/white_001142.jpg);
 }
@@ -71,11 +71,14 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../../public/assets/pexels-alex-conchillos-3648850.jpg); */
-  background-image: var(--img-url);
+  /* background-image: var(--img-url); */
 }
 
 /* ============ GENEARL STYLES ============= */
+
+#__next > div {
+  background-image: var(--img-url);
+}
 
 .container {
   width: var(--container-width-lg);
