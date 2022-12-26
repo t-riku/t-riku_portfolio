@@ -7,6 +7,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
 
 // スタイリング
 const customStyles: any = {
@@ -46,10 +48,6 @@ const MeModal = () => {
     setIsOpen(true);
   };
 
-  const afterOpenModal = () => {
-    // モーダルが開いた後の処理
-  };
-
   // モーダルを閉じる処理
   const closeModal = () => {
     setIsOpen(false);
@@ -66,8 +64,6 @@ const MeModal = () => {
         contentLabel="modal"
         // isOpenがtrueならモダールが起動する
         isOpen={modalIsOpen}
-        // モーダルが開いた後の処理を定義
-        onAfterOpen={afterOpenModal}
         // モーダルを閉じる処理を定義
         onRequestClose={closeModal}
         // スタイリングを定義
@@ -117,70 +113,114 @@ const MeModal = () => {
               <p className={classes.modal__sns__text}>
                 SNSは大学生以降全く更新しておらず見る専門です。
               </p>
+              <div className={classes.contact__options}>
+                <article className={classes.contact__option}>
+                  <MdOutlineEmail className={classes.contact__option_icon} />
+                  <h4>Email</h4>
+                  <h5>dingariku@icloud.com</h5>
+                  <a
+                    href="mailto:dingariku@icloud.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Send a message
+                  </a>
+                </article>
+                <article className={classes.contact__option}>
+                  <BsWhatsapp className={classes.contact__option_icon} />
+                  <h4>Phone Number</h4>
+                  <h5>080-9800-1264</h5>
+                  <a
+                    href="tel:080-9800-1264"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Telephone
+                  </a>
+                </article>
+              </div>
             </div>
+
             <div className={classes.modal__content__right}>
               <ul className={classes.aboutMe}>
                 <li>
-                  <span>誕生日 : </span>
-                  2000.10.13
-                </li>
-                <li>
-                  <span>現住 : </span>
-                  神奈川県藤沢市湘南台
-                </li>
-                <li>
-                  <span>好きな動物 : </span>
-                  シャチ
-                </li>
-                <li>
-                  <span>好きなもの : </span>
-                  ONE OK ROCK
-                </li>
-                <li>
-                  <span>趣味 : </span>
-                  スマブラ、LIVEに行くこと
-                </li>
-                <li>
-                  <span>好きな食べ物：</span>
-                  豆腐(湯豆腐、冷奴、卵豆腐、豆乳)
+                  <span>なぜフロントエンドエンジニアに：</span>
+                  惹かれたのは 「ユーザーとの距離を近く感じられる」
+                  「画面やデザインを作るのが好き」
+                  「モダンな技術が使いたい」の3点がありました。
+                  フロントエンドエンジニアは、ブラウザやUIなどユーザーが直接見て操作する部分を設計・構築するので、ユーザーに最大限配慮した仕事が求められます。
+                  そのため、他のエンジニアに比べて、よりユーザーとの距離を近く感じることができ、自分の仕事が直接ユーザーに触れているように感じることができる所にとても惹かれました。人のために頑張ることが好きで相手目線で物事を考えることが多い私は向いているなと思いました。
+                  2つ目の理由としてはこれまでに色々なWebサイトを作ってみて、自分の書いたコードがわかりやすく目に見え形になる事にとても惹かれました。昔から美術が好きだったり大学でのデザインの授業が好きでよく履修していたりと、元々デザイン系は興味があって勉強していました。また最近だと「UI・UX」を強く意識して制作したりしています。
+                  3つ目の理由としてはモダンな技術を使うことによってより多くの人によりいいサービスが届くと思うためです。例えば新しい技術を導入することによってサイトのパフォーマンスが上がったり、落ちにくくなって安定性が上がったり、そもそも新しい機能を追加できたりなどの利点があります。そうすることによってユーザーが伸びたりユーザー1人あたりの売り上げが増加したり競合と差別化できたり、結果売上が上がるなどの良い点があると思います。トレンドの技術の移り変わりが速く、新しいことに挑戦したい私はフロントエンドエンジニアに向いているなと思いました。
                 </li>
                 <li>
                   <span>キャリアビジョン：</span>
-                  私は将来新しい技術やトレンドの技術に対応し幅広く活躍、仕事をこなせるエンジニアになりたいです。
+                  私は将来新しい技術やトレンドの技術に対応し幅広く活躍、仕事をこなせるエンジニアになりたいと思っています。
                   現場では多様性が求められる場面でも変化に対応できる人材が求められると思っていて、様々な方面でエンジニアが活躍できる領域が広がっていると思います。1つの専門スキルを突き詰めるだけでなく、技術の流れが早いIT業界で、流動的に新しい情報をキャッチアップし新しい技術に対応し、実装開発を行うことでクライアントの要望により応えれるのではないかと思うためです。
-                  そのため現在はReactフレームワークのNext.jsと現場では必須になりつつあるTypescriptを勉強しつつ、Web制作の仕事に大きく関わるバックエンドの勉強もしています。
+                  そのため現在はReactフレームワークのNext.jsと現場では必須になりつつあるTypescriptを勉強しつつ、Web制作の仕事に大きく関わるバックエンド・デザインの勉強もしています。
                 </li>
               </ul>
-
-              <div className={classes.chronology}>
-                <div className={classes.chronology__item}>
-                  <p>2000</p>
-                  <p>生まれる</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2002</p>
-                  <p>湘南台保育園入園</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2007</p>
-                  <p>湘南台小学校入学</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2013</p>
-                  <p>湘南台中学入学</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2016</p>
-                  <p>七里ガ浜高等学校入学</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2020</p>
-                  <p>デジタルハリウッド大学入学</p>
-                </div>
-                <div className={classes.chronology__item}>
-                  <p>2024</p>
-                  <p>デジタルハリウッド大学卒業見込み</p>
-                </div>
+            </div>
+          </div>
+          <div className={classes.modal__content__medium}>
+            <ul className={classes.aboutMe}>
+              <li>
+                <span>誕生日 : </span>
+                2000.10.13
+              </li>
+              <li>
+                <span>現住 : </span>
+                神奈川県藤沢市湘南台
+              </li>
+              <li>
+                <span>好きな動物 : </span>
+                シャチ
+              </li>
+              <li>
+                <span>好きなもの : </span>
+                ONE OK ROCK
+              </li>
+              <li>
+                <span>趣味 : </span>
+                スマブラ、LIVEに行くこと、旅行
+              </li>
+              <li>
+                <span>好きな食べ物：</span>
+                豆腐(湯豆腐、冷奴、卵豆腐、豆乳)
+              </li>
+              <li>
+                <span>長所 / 短所：</span>
+                継続力、諦めない心 / 記憶力が悪い
+              </li>
+            </ul>
+            <div className={classes.chronology}>
+              <div className={classes.chronology__item}>
+                <p>2000</p>
+                <p>生まれる</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2002</p>
+                <p>湘南台保育園入園</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2007</p>
+                <p>湘南台小学校入学</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2013</p>
+                <p>湘南台中学入学</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2016</p>
+                <p>七里ガ浜高等学校入学</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2020</p>
+                <p>デジタルハリウッド大学入学</p>
+              </div>
+              <div className={classes.chronology__item}>
+                <p>2024</p>
+                <p>デジタルハリウッド大学卒業見込み</p>
               </div>
             </div>
           </div>
