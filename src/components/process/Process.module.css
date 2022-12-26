@@ -118,6 +118,52 @@
   margin-bottom: 0;
 }
 
+/*==================================================
+　5-3-3 左から右に線が伸びる（下部）
+===================================*/
+
+.timeline .timeline__heading .time {
+  margin-bottom: 0.5rem;
+  /*線の基点とするためrelativeを指定*/
+  position: relative;
+}
+
+.timeline .timeline__heading .time::after {
+  content: "";
+  /*絶対配置で線の位置を決める*/
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  /*線の形状*/
+  width: 90%;
+  height: 1px;
+  background: #d8d8d8;
+  opacity: 0.6;
+  /*アニメーションの指定*/
+  transition: all 0.3s;
+  transform: scale(0, 1); /*X方向0、Y方向1*/
+  transform-origin: right top; /*左上基点*/
+}
+
+.timeline > li.timeline__inverted .timeline__heading .time::after {
+  transform-origin: left top; /*左上基点*/
+  left: 0%;
+}
+
+/*現在地とhoverの設定*/
+.timeline li:hover .time::after {
+  transform: scale(1, 1); /*X方向にスケール拡大*/
+}
+
+/* ================================================ */
+
+@media (max-width: 768px) {
+  .timeline .timeline__heading .time::after {
+    transform-origin: left top;
+    left: 0%;
+  }
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;

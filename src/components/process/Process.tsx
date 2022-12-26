@@ -28,7 +28,7 @@ const Process = () => {
                 </div>
                 <div className={classes.timeline__panel}>
                   <div className={classes.timeline__heading}>
-                    <h4>{time}</h4>
+                    <h4 className={classes.time}>{time}</h4>
                     <h4 className={classes.subheading}>{title}</h4>
                   </div>
                   <div className={classes.timeline__body}>
