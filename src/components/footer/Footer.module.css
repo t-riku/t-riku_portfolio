@@ -34,7 +34,7 @@
 
 .permalinks li.current a,
 .permalinks li a:hover {
-  color: #0481a2;
+  color: var(--color-work-hover);
 }
 
 .permalinks li a::after {
@@ -46,7 +46,7 @@
   /*線の形状*/
   width: 80%;
   height: 2px;
-  background: #0481a2;
+  background: var(--color-work-hover);
   /*アニメーションの指定*/
   transition: all 0.3s;
   transform: scale(0, 1); /*X方向0、Y方向1*/

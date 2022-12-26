@@ -62,10 +62,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
-
 body {
   font-family: "Poppins", "Noto Sans JP", sans-serif;
   background: var(--color-bg);
@@ -193,9 +189,10 @@ img {
   opacity: 0;
 }
 
-/* image-gallery */
+/* ================image-gallery==================== */
 .image-gallery-slide .image-gallery-image {
   border-radius: 15px;
+  margin-top: 1.1rem;
 }
 .image-gallery-thumbnail {
   border-radius: 10px;
@@ -224,16 +221,17 @@ img {
 button.image-gallery-thumbnail {
   padding: 0px !important;
 }
-/* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
 @media (max-width: 1024px) {
+  .image-gallery-slide .image-gallery-image {
+    margin-top: 3rem;
+  }
+}
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
+/* @media (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
-
-  section {
-    margin-top: 6rem;
-  }
-}
+} */
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) 携帯サイズ ================= */
 @media (max-width: 1024px) {

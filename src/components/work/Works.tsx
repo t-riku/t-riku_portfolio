@@ -26,9 +26,9 @@ const Works = () => {
   };
 
   return (
-    <div>
+    <>
       <p className={classes.work__text}>
-        特に見て欲しい制作物が「ポートフォリオサイト」「多田設計事務所（リメイク）」「Pokedex」です
+        特に見て欲しい制作物が「ポートフォリオサイト」「多田設計事務所（リメイク）」「Pokedex（制作中）」です
       </p>
       <div className={classes.work__filters}>
         {projectsNav.map((item, index) => {
@@ -53,7 +53,7 @@ const Works = () => {
           return <WorkItems item={item} key={item.id} />;
         })}
       </div>
-    </div>
+    </>
   );
 };
 
