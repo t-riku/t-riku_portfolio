@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "src/components/header/Header.module.css";
 import { FaGithub, FaSchool } from "react-icons/fa";
-import { BsHouseFill } from "react-icons/bs";
+import { MdOutlineStickyNote2 } from "react-icons/md";
 
 const HeaderSocials = () => {
   return (
@@ -21,11 +21,11 @@ const HeaderSocials = () => {
         <FaSchool />
       </a>
       <a
-        href="https://www.arttada.com/"
+        href="https://note.com/note_tdrk1013"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <BsHouseFill />
+        <MdOutlineStickyNote2 />
       </a>
     </div>
   );
