@@ -137,7 +137,7 @@
   /*線の形状*/
   width: 90%;
   height: 1px;
-  background: #d8d8d8;
+  background: var(--color-process-border);
   opacity: 0.6;
   /*アニメーションの指定*/
   transition: all 0.3s;
