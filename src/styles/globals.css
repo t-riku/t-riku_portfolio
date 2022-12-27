@@ -28,6 +28,7 @@
   --color-modal-btn: #2c2c6c;
   --color-modal-btn-hover: #545469;
   --color-text-gray: #cdcdcd;
+  --color-process-border: #d8d8d8;
 
   --transition: all 0.3s ease;
 
@@ -54,6 +55,7 @@
   --color-modal-btn: #02653e;
   --color-modal-btn-hover: #67ba68;
   --color-text-gray: #676767;
+  --color-process-border: #9b9b9b;
 
   --img-url: url(../../public/assets/white_001142.jpg);
 }
