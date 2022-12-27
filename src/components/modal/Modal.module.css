@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-column: 1rem;
   gap: 1rem;
+  /* 半角英数を改行できるように */
   word-break: break-all;
 }
 
@@ -53,6 +54,7 @@
   border-radius: 50%;
   background: var(--color-modal-btn);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .modal__btn__close::before,
@@ -89,13 +91,14 @@
   transition: var(--transition);
   margin: 0 auto;
   margin-top: 5rem;
+  cursor: pointer;
 }
 
 .modal__btn__close__bottom:hover {
   background-color: var(--color-modal-btn-hover);
 }
 
-/* ============MeModal=============== */
+/* ========================MeModal============================ */
 .modal__img {
   width: 85%;
   height: auto;
@@ -200,7 +203,11 @@
   gap: 1rem;
 }
 
-/* ============WorkModal=============== */
+/* =======================WorkModal========================= */
+.workModal__content {
+  grid-template-columns: 1fr;
+}
+
 .modal__content__left .work__description p,
 .modal__content__left .work__languages_tools ul {
   margin: 0 15px;
