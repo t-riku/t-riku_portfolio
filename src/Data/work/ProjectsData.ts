@@ -105,23 +105,19 @@ const projectsData = [
   },
   {
     id: 3,
-    image: Work3,
-    title: "多田設計事務所",
-    github: "https://github.com/t-riku/tada-home/tree/master",
+    image: Work7,
+    title: "Pokedex",
+    github: "https://github.com/t-riku/pokedex-app",
     demo: "https://www.arttada.com/",
-    category: "Web",
-    time: "2022.3",
-    text: `制作する事になった経緯としては僕の両親が建築士で事務所を持っていて、
-    僕の兄もエンジニアでcmsでホームページを作ったのですが、細かいところがどうしても修正が効かなかったり、更新が少し大変で困っていました。
-    そこでReactを丁度勉強していた僕は兄からReactに移行してみたらと言われ、確かにと思い勉強がてら移行に挑戦してみました。
-    デザインはほぼそのままで忠実に再現しました。Firebaseでサーバーは管理して新しく家を建てた時に住宅の欄に追加をするために更新も行えるようにしました。
-    初めてのReactチュートリアル以降での制作物だったのでjsx記法、ルーター、コンポーネント、どのモジュールを使えばいいのか、Firebaseの扱い方など戸惑いましたがトライアンドエラーを繰り返しアウトプットしたことでReactの基礎が身につき、移行することができました。`,
-    tool: `React
-      Javascript
-      SASS
-      Firebase
-      Illustrator
-      Photoshop`,
+    category: "App",
+    time: "2022.12",
+    text: `直前に作った「Pokemon app」のデザインをもっとポケモン図鑑みたいに、そしてNext JSで作ろうとしたのがこのアプリケーション制作に至った経緯です。
+    まだ制作途中ですが、ソート機能、検索機能、お気に入り機能、並び替え機能をつけようと思っています。`,
+    tool: `Next JS
+    Typescript
+    Module CSS
+    Sass
+    Poke API`,
     images: [
       {
         original: "",
@@ -248,19 +244,23 @@ const projectsData = [
   },
   {
     id: 7,
-    image: Work7,
-    title: "Pokedex",
-    github: "https://github.com/t-riku/pokedex-app",
+    image: Work3,
+    title: "多田設計事務所",
+    github: "https://github.com/t-riku/tada-home/tree/master",
     demo: "https://www.arttada.com/",
-    category: "App",
-    time: "2022.12",
-    text: `直前に作った「Pokemon app」のデザインをもっとポケモン図鑑みたいに、そしてNext JSで作ろうとしたのがこのアプリケーション制作に至った経緯です。
-    まだ制作途中ですが、ソート機能、検索機能、お気に入り機能、並び替え機能をつけようと思っています。`,
-    tool: `Next JS
-    Typescript
-    Module CSS
-    Sass
-    Poke API`,
+    category: "Web",
+    time: "2022.3",
+    text: `制作する事になった経緯としては僕の両親が建築士で事務所を持っていて、
+    僕の兄もエンジニアでcmsでホームページを作ったのですが、細かいところがどうしても修正が効かなかったり、更新が少し大変で困っていました。
+    そこでReactを丁度勉強していた僕は兄からReactに移行してみたらと言われ、確かにと思い勉強がてら移行に挑戦してみました。
+    デザインはほぼそのままで忠実に再現しました。Firebaseでサーバーは管理して新しく家を建てた時に住宅の欄に追加をするために更新も行えるようにしました。
+    初めてのReactチュートリアル以降での制作物だったのでjsx記法、ルーター、コンポーネント、どのモジュールを使えばいいのか、Firebaseの扱い方など戸惑いましたがトライアンドエラーを繰り返しアウトプットしたことでReactの基礎が身につき、移行することができました。`,
+    tool: `React
+      Javascript
+      SASS
+      Firebase
+      Illustrator
+      Photoshop`,
     images: [
       {
         original: "",
