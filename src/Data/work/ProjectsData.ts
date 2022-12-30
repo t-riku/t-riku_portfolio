@@ -43,7 +43,8 @@ const projectsData = [
     このサイトを作る上で工夫し、試みた点は「UI・UX」を意識したデザイン/内容、githubへのgitmojiを使ったコミット、vercelへのデプロイ、コードのリファクタリング、TypeScriptの型指定、データフォルダを作りデータの管理を容易に、画像サイズの圧縮、フォルダを適切な位置に配置、CSSデータの整理、「TypeScript」「Prettier」「ESLint」による構文エラーのチェックとコード整形です。`,
     tool: `Next JS  
     TypeScript
-    Module CSS`,
+    Module CSS
+    Photoshop`,
     images: [
       {
         original: Work1_1,
