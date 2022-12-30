@@ -20,20 +20,11 @@
 
 他の要素としてはトップページにダークモードとライトモードを切り替えることができるボタンを配置し、お好きなテーマで快適に見られることができるようにしました。
 
-<<<<<<< HEAD
 Work セクションでは[all,web,app,design]ボタンを配置しクリックすると切り替えれるようにし、More ボタンをクリックするとモーダルが開き制作物の詳細を見ることができるようにしました。
 
 またレスポンシブにも対応していてどのデバイスでも快適に見ることができるようになっています。
 
 このサイトを作る上で工夫し、試みた点は「UI・UX」を意識したデザイン/内容、github への gitmoji を使ったコミット、vercel へのデプロイ、コードのリファクタリング、TypeScript の型指定、データフォルダを作りデータの管理を容易に、画像サイズの圧縮、フォルダを適切な位置に配置、CSS データの整理、「TypeScript」「Prettier」「ESLint」による構文エラーのチェックとコード整形です。
-
-Work セクションでは[all,web,app,design]ボタンを配置しクリックすると切り替えれるようにし、More ボタンをクリックするとモーダルが開き制作物の詳細を見ることができるようにしました。
-
-またレスポンシブにも対応していてどのデバイスでも快適に見ることができるようになっています。
-
-このサイトを作る上で工夫し、試みた点は「UI・UX」を意識したデザイン/内容、github への gitmoji を使ったコミット、vercel へのデプロイ、コードのリファクタリング、TypeScript の型指定、データフォルダを作りデータの管理を容易に、画像サイズの圧縮、フォルダを適切な位置に配置、CSS データの整理、「TypeScript」「Prettier」「ESLint」による構文エラーのチェックとコード整形です。
-
-> > > > > > > 15cbf15... 💬 README.md を変更
 
 ## 使用した言語・ツールなど
 
@@ -42,6 +33,8 @@ Next JS
 TypeScript
 
 Module CSS
+
+<br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
