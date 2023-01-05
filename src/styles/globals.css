@@ -245,3 +245,11 @@ button.image-gallery-thumbnail {
     margin-top: 2rem;
   }
 }
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) 携帯サイズ ================= */
+@media (max-width: 524px) {
+  section {
+    padding-top: 3.5rem;
+    margin-top: 3rem;
+  }
+}

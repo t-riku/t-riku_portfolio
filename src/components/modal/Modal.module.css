@@ -3,8 +3,6 @@
   grid-template-columns: 1fr 1fr;
   grid-column: 1rem;
   gap: 1rem;
-  /* 半角英数を改行できるように */
-  word-break: break-all;
 }
 
 .modal__content__left,
@@ -208,14 +206,19 @@
   grid-template-columns: 1fr;
 }
 
+.work__description {
+  margin: 0 90px;
+}
+
 .modal__content__left .work__description p,
 .modal__content__left .work__languages_tools ul {
-  margin: 0 15px;
-  padding: 30px;
+  padding: 50px;
   border-radius: 15px;
   box-shadow: -1.5px -1.5px 3px rgba(255, 255, 255, 0.95) inset,
     1px 1px 4px rgba(32, 64, 128, 0.2) inset;
   background-color: darken(#f1f3f6, 3);
+  /* 半角英数を改行できるように */
+  word-break: break-all;
 }
 
 .modal__content__left .work__description h3,
@@ -256,7 +259,7 @@
 
 .work__category_time {
   margin-top: 0.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding-right: 1rem;
 }
 
@@ -298,6 +301,10 @@
     grid-template-columns: 1fr;
   }
 
+  .work__description {
+    margin: 20px;
+  }
+
   .work__modal__btn {
     justify-content: end;
     margin-right: 1rem;
@@ -316,6 +323,10 @@
     grid-template-columns: 1fr;
   }
 
+  .work__description {
+    margin: 0px;
+  }
+
   .modal__content__left .work__description p,
   .modal__content__left .work__languages_tools ul {
     margin: 0;
@@ -327,5 +338,23 @@
     justify-content: start;
     margin-left: 0;
     margin-bottom: 3rem;
+  }
+}
+
+/* For small deveces */
+@media screen and (max-width: 428px) {
+  .modal__content__left .work__description p,
+  .modal__content__left .work__languages_tools ul {
+    padding: 25px 15px;
+  }
+
+  .modal__content__left .work__description h3 span,
+  .modal__content__left .work__languages_tools h3 span {
+    font-size: 1rem;
+  }
+
+  .work__category_time ul {
+    gap: 0.3rem;
+    font-size: 0.8rem;
   }
 }
