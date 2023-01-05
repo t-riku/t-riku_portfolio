@@ -32,10 +32,7 @@ const WorkModal = () => {
             key={index}
           >
             <div className={classes.modal}>
-              <div
-                className={`${classes.modal__content} ${classes.workModal__content}`}
-                key={item.id}
-              >
+              <div className={classes.modal__content} key={item.id}>
                 <div className={classes.modal__content__left}>
                   <div className={classes.work__description}>
                     <h3>{item.title}</h3>

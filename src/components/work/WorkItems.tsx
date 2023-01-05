@@ -102,7 +102,9 @@ const WorkItems = ({ item }: { item: ITEM }) => {
               key={item.id}
             >
               <div className={classess.modal}>
-                <div className={classess.modal__content}>
+                <div
+                  className={`${classes.modal__content} ${classes.workModal__content}`}
+                >
                   <div className={classess.modal__content__left}>
                     <div className={classess.work__description}>
                       <h3>
@@ -118,43 +120,43 @@ const WorkItems = ({ item }: { item: ITEM }) => {
                         </ul>
                       </div>
                       <p>{item.text}</p>
-                    </div>
-                    <div className={classess.work__modal__btn}>
-                      <a
-                        href={item.demo}
-                        className={`btn btn-primary ${classes.work__livedemo}`}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        Live Demo
-                      </a>
-                      <a
-                        href={item.github}
-                        className={`btn ${classes.work__github}`}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <FaGithub />
-                      </a>
-                    </div>
-
-                    <div className={classess.work__languages_tools}>
-                      <h3>
-                        <span>使用した言語・ツールなど</span>
-                      </h3>
-                      <ul>
-                        <li>{item.tool}</li>
-                      </ul>
+                      <div className={classess.work__modal__btn}>
+                        <a
+                          href={item.demo}
+                          className={`btn btn-primary ${classes.work__livedemo}`}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Live Demo
+                        </a>
+                        <a
+                          href={item.github}
+                          className={`btn ${classes.work__github}`}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <FaGithub />
+                        </a>
+                      </div>
+                      <div className={classess.work__languages_tools}>
+                        <h3>
+                          <span>使用した言語・ツールなど</span>
+                        </h3>
+                        <ul>
+                          <li>{item.tool}</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                  <div className={classess.modal__content__right}>
+
+                  {/* <div className={classess.modal__content__right}>
                     <ImageGallery
                       items={item.images}
                       showNav={false}
                       showPlayButton={false}
                       thumbnailPosition="bottom"
                     />
-                  </div>
+                  </div> */}
                 </div>
 
                 <button
