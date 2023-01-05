@@ -181,24 +181,28 @@ const MeModal = () => {
                 神奈川県藤沢市湘南台
               </li>
               <li>
-                <span>好きな動物 : </span>
-                シャチ
-              </li>
-              <li>
-                <span>好きなもの : </span>
-                ONE OK ROCK
-              </li>
-              <li>
                 <span>趣味 : </span>
-                スマブラ、LIVEに行くこと、旅行
+                音楽、旅行、料理、映画、古着巡り、テニス、スマブラ
               </li>
               <li>
                 <span>好きな食べ物：</span>
                 豆腐(湯豆腐、冷奴、卵豆腐、豆乳)
               </li>
               <li>
-                <span>長所 / 短所：</span>
-                継続力、諦めない心 / 記憶力が悪い
+                <span>好きなもの : </span>
+                ONE OK ROCK、古着、温泉、自然観光
+              </li>
+              <li>
+                <span>好きな動物 : </span>
+                シャチ
+              </li>
+              <li>
+                <span>長所：</span>
+                相手の立場に立って考えることが多い、諦めない心、素直、笑顔が多い
+              </li>
+              <li>
+                <span>短所：</span>
+                心配性、記憶力が悪い、ケチ
               </li>
             </ul>
             <div className={classes.chronology}>
