@@ -11,8 +11,10 @@ import Work10 from "public/assets/portfolio/loginValidation-app__fullsize.png";
 import Work11 from "public/assets/portfolio/catImg-app__fullsize.png";
 import Work12 from "public/assets/portfolio/weather-app__fullsize.png";
 import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
+import Work14 from "public/assets/portfolio/pokedex-app__fullsize.png";
 
-import Work1_1 from "public/assets/portfolio__details/work1-1.png";
+import Work1_1 from "/public/assets/portfolio__details/work1-1.png";
+import Work1_2 from "public/assets/portfolio__details/work1-1.png";
 
 // ========== PORTFOLIO DATA ==========
 
@@ -51,13 +53,15 @@ const projectsData = [
         thumbnail: Work1_1,
       },
       {
-        original: "../../../public/assets/portfolio__details/work1-1.png",
-        thumbnail: "../../../public/assets/portfolio__details/work1-1.png",
+        original: "../../public/assets/portfolio__details/work1-1.png",
+        thumbnail: "../../public/assets/portfolio__details/work1-1.png",
       },
-      {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-      },
+      // {
+      //   original: require("../../public/assets/portfolio__details/work1-1.png")
+      //     .default,
+      //   thumbnail: require("../../public/assets/portfolio__details/work1-1.png")
+      //     .default,
+      // },
     ],
   },
   {
@@ -105,7 +109,7 @@ const projectsData = [
   },
   {
     id: 3,
-    image: Work7,
+    image: Work14,
     title: "Pokedex",
     github: "https://github.com/t-riku/pokedex-app",
     demo: "https://www.arttada.com/",
