@@ -83,7 +83,7 @@
 .work__livedemo:hover {
   background: var(--color-white);
   color: var(--color-bg);
-  border-color: transparent;
+  border-color: #272626;
 }
 
 .work__github {
