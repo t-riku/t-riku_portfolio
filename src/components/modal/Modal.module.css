@@ -179,6 +179,7 @@
 
 .aboutMe li {
   font-weight: 600;
+  line-height: 1.8rem;
 }
 
 .aboutMe li + li {
@@ -219,6 +220,7 @@
   background-color: darken(#f1f3f6, 3);
   /* 半角英数を改行できるように */
   word-break: break-all;
+  line-height: 1.9rem;
 }
 
 .modal__content__left .work__description h3,
