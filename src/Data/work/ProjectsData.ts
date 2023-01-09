@@ -185,7 +185,7 @@ const projectsData = [
     image: Work5,
     title: "ONE OK ROCK Website",
     github: "https://github.com/t-riku/oneokrock_web/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://t-riku.github.io/oneokrock_web/",
     category: "Web",
     time: "2022.5",
     text: `制作する事になった経緯としては僕はロックバントのONEOKROCKが大好きなのですが、当時ONEOKROCKのWebサイトを見たところ（2022年5月）正直全然かっこよくないなって思いまして、自分だったらこう作るなというWebサイトを作ってみました(現在の公式サイトはリニューアルされてます)。
@@ -224,7 +224,7 @@ const projectsData = [
     image: Work6,
     title: "DHU Web（リデザイン）",
     github: "https://github.com/t-riku/dhu_redesign/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://t-riku.github.io/dhu_redesign/",
     category: "Web",
     time: "2022.6",
     text: `ターゲットは「新しく学校に入学しようかなと考えている受験生」を意識して作りました。
@@ -258,7 +258,7 @@ const projectsData = [
     image: Work3,
     title: "多田設計事務所",
     github: "https://github.com/t-riku/tada-home/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://react-tada-home.vercel.app/",
     category: "Web",
     time: "2022.3",
     text: `制作する事になった経緯としては僕の両親が建築士で事務所を持っていて、
@@ -321,7 +321,7 @@ const projectsData = [
     image: Work7,
     title: "Pokemon app",
     github: "https://github.com/t-riku/pokemon-app",
-    demo: "https://www.arttada.com/",
+    demo: "https://pokemon-app-bay.vercel.app/",
     category: "App",
     time: "2022.12",
     text: `このアプリケーションを制作した経緯としてはこの頃ポケモンSVが発売されて初めてポケモンを本気でやろうと思い、種族値をインターネットで調べました。
@@ -473,13 +473,13 @@ const projectsData = [
     category: "Web",
     time: "2021.12",
     text: `この音楽バーのホームページは大学のチーム課題で作りました。
-    グループは4人いてリーダー、デザイン、コーダーの役割がありました。
-    僕達のグループは人数が1人少なくてデザイン担当が2人だったので僕がコーダーの担当をやらせて貰えました。
-    オンライン授業だったのでコミュニケーションはSlack、LINEでとり、タスク管理はBacklogで管理しました。
-    初めて3人以上のチームでプロジェクトを行ったのですが、チームの力は凄いなと思いました。
-    リーダーが終始まとめてくれたり、デザインの方がフレームワーク、デザインをAdobe XDで作ってくれました。
-    僕は作ってくれたデザインを見てそのままコーディングするだけだったので普段1人でやっている時よりも予定通りに進み助かりました。
-    サイトのコンセプトとしては音楽バーなので黒を基調としてオシャレな感じでデザインのイメージを決めました。`,
+    チームは 4 人でリーダー、コーダー、デザイン 2 人で私がコーダーの役割を引き受けました。
+    チームとオンラインならではの困ったことがあり、オンライン授業でリーダーと僕しか喋らず最初はあまり会話が弾みませんでした。そこでデザインの 2 人に「どんなデザインが好きなの？」など積極的に質問したことでだんだんと話してくれるようになりました。授業以外の時でも定期的に ZOOM 会議をすることを促し、レイアウトの相談、進捗の確認や雑談をしたことでチーム全員がお互いにアドバイスや指摘を気軽にし合えるチームになれました。
+    コミュニケーションは Slack、LINE でとり、タスク管理は Backlog で管理しました。
+    サイトのコンセプトとしては音楽バーなので黒を基調としてオシャレな感じでデザインのイメージを決めました。
+    リーダーが終始出た意見などをまとめてくれ、デザインの方がフレームワーク、デザインを Adobe XD で作ってくれました。
+    僕は作ってくれたデザインを見てそのままコーディングするだけだったので普段 1 人でやっている時よりも順調にスピーディーに進み助かりました。
+    初めてチームでプロジェクトを行ったのですが、チームで何かをするのは楽しく、やっている工程は少ないけども達成感が一人で開発するよりもあるなと感じました。`,
     tool: `HTML
     SASS
     Bootstrap
