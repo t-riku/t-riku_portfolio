@@ -103,7 +103,7 @@ const WorkItems = ({ item }: { item: ITEM }) => {
             >
               <div className={classess.modal}>
                 <div
-                  className={`${classes.modal__content} ${classes.workModal__content}`}
+                  className={`${classess.modal__content} ${classess.workModal__content}`}
                 >
                   <div className={classess.modal__content__left}>
                     <div className={classess.work__description}>
