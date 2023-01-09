@@ -292,7 +292,7 @@ const projectsData = [
     image: Work8,
     title: "Img Search app",
     github: "https://github.com/t-riku/react__searchImg-app/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://react-search-img-app.vercel.app/",
     category: "App",
     time: "2022.6",
     text: `Pixabay APIを使い簡単な画像を探せるアプリケーションを作成しました。
@@ -330,6 +330,7 @@ const projectsData = [
     カードの背景色はAPIからとってきたポケモンのタイプをとって（複数タイプの場合は最初に取ってきたタイプ）それに一致するbackgroundColorを当てるようにしています。
     そして1匹のポケモンのカードをクリックするとモーダルで種族値、タイプ、合計種族値などが見れるようなっています。
     APIから情報を取得している間はloadingでポケモンのアイコンが回るようにして、待ち時間の体感を減らす工夫をしました。
+    modalでタイプのカラーを設定していないのと、エスケイプキーでしかモーダルが閉じれ無くなっている状態なので時間がある時に直します。
     このアプリケーションを作った事によって、ReactのHooksの理解が進んでAPIの取得と絡めて使えるようになりました。`,
     tool: `React
     CSS
@@ -354,7 +355,7 @@ const projectsData = [
     image: Work9,
     title: "Memo app",
     github: "https://github.com/t-riku/react__memo-app/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://react-memo-app-two.vercel.app/",
     category: "App",
     time: "2022.10",
     text: `簡単なメモアプリケーションを作成しました。
@@ -383,7 +384,7 @@ const projectsData = [
     image: Work10,
     title: "Login Form Validation app",
     github: "https://github.com/t-riku/react__login-app/tree/master",
-    demo: "https://www.arttada.com/",
+    demo: "https://react-login-app-nine.vercel.app/",
     category: "App",
     time: "2022.11",
     text: `フォームを送信する際にバリデーションチェックをかけて正しく入力されていたらログインが通るフォームを作成しました。
@@ -410,7 +411,7 @@ const projectsData = [
     image: Work11,
     title: "Cat Image app",
     github: "https://github.com/t-riku/next-catImg-app",
-    demo: "https://www.arttada.com/",
+    demo: "https://next-cat-img-app.vercel.app/",
     category: "App",
     time: "2022.11",
     text: `Next JSで猫の画像を表示するアプリケーションを作成しました。
@@ -469,7 +470,7 @@ const projectsData = [
     image: Work13,
     title: "月夜のケダモノ",
     github: "https://github.com/t-riku/dhu_web_02",
-    demo: "https://www.arttada.com/",
+    demo: "https://t-riku.github.io/dhu_web_02/",
     category: "Web",
     time: "2021.12",
     text: `この音楽バーのホームページは大学のチーム課題で作りました。
