@@ -11,7 +11,6 @@
   text-decoration: none;
 }
 
-/* [data-theme="dark"] */
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -36,7 +35,7 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
-  --img-url: url(/assets/pexels-alex-conchillos-3648850.jpg);
+  --img-url: url(/assets/background/black.jpg);
 }
 
 [data-theme="light"] {
@@ -57,7 +56,7 @@
   --color-text-gray: #676767;
   --color-process-border: #9b9b9b;
 
-  --img-url: url(/assets/white_001142.jpg);
+  --img-url: url(/assets/background/white.jpg);
 }
 
 html {
@@ -69,7 +68,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: var(--img-url); */
 }
 
 /* ============ GENEARL STYLES ============= */
@@ -98,7 +96,6 @@ h1 {
 section {
   padding-top: 5rem;
   margin-top: 4rem;
-  /* height: 100vh; */
 }
 
 section:last-of-type {
@@ -229,13 +226,6 @@ button.image-gallery-thumbnail {
   }
 }
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) タブレットサイズ ================= */
-/* @media (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-} */
-
-/* ============== MEDIA QUERIES (SMALL DEVICES) 携帯サイズ ================= */
 @media (max-width: 1024px) {
   .container {
     width: var(--container-width-sm);
