@@ -13,9 +13,6 @@ import Work12 from "public/assets/portfolio/weather-app__fullsize.png";
 import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
 import Work14 from "public/assets/portfolio/pokedex-app__fullsize.png";
 
-import Work1_1 from "/public/assets/portfolio__details/work1-1.png";
-import Work1_2 from "public/assets/portfolio__details/work1-1.png";
-
 // ========== PORTFOLIO DATA ==========
 
 const projectsData = [
@@ -47,22 +44,28 @@ const projectsData = [
     TypeScript
     Module CSS
     Photoshop`,
-    images: [
-      {
-        original: Work1_1,
-        thumbnail: Work1_1,
-      },
-      {
-        original: "../../public/assets/portfolio__details/work1-1.png",
-        thumbnail: "../../public/assets/portfolio__details/work1-1.png",
-      },
-      // {
-      //   original: require("../../public/assets/portfolio__details/work1-1.png")
-      //     .default,
-      //   thumbnail: require("../../public/assets/portfolio__details/work1-1.png")
-      //     .default,
-      // },
-    ],
+    // images: [
+    //   {
+    //     original: "/assets/portfolio__details/portfolio_site/portfolio01.png",
+    //     thumbnail: "/assets/portfolio__details/portfolio_site/portfolio01.png",
+    //   },
+    //   {
+    //     original: "/assets/portfolio__details/portfolio_site/portfolio02.png",
+    //     thumbnail: "/assets/portfolio__details/portfolio_site/portfolio02.png",
+    //   },
+    //   {
+    //     original: "/assets/portfolio__details/portfolio_site/portfolio03.png",
+    //     thumbnail: "/assets/portfolio__details/portfolio_site/portfolio03.png",
+    //   },
+    //   {
+    //     original: "/assets/portfolio__details/portfolio_site/portfolio04.png",
+    //     thumbnail: "/assets/portfolio__details/portfolio_site/portfolio04.png",
+    //   },
+    // {
+    //   original: "/assets/portfolio__details/portfolio_site/portfolio05.png",
+    //   thumbnail: "/assets/portfolio__details/portfolio_site/portfolio05.png",
+    // },
+    // ],
   },
   {
     id: 2,
@@ -182,6 +185,40 @@ const projectsData = [
   },
   {
     id: 5,
+    image: Work7,
+    title: "Pokemon app",
+    github: "https://github.com/t-riku/pokemon-app",
+    demo: "https://pokemon-app-bay.vercel.app/",
+    category: "App",
+    time: "2022.12",
+    text: `このアプリケーションを制作した経緯としてはこの頃ポケモンSVが発売されて初めてポケモンを本気でやろうと思い、種族値をインターネットで調べました。
+    その時にデザイン的にあまり好ましくないなと思い自分でも作ってみようと思い作りました。
+    機能としては下の次へボタンを押すと次の20匹のポケモンをPoke Api経由で取得しカードで表示するというアプリです。前へボタンを押すと前の20匹のポケモンを再度取得してきます。
+    カードの背景色はAPIからとってきたポケモンのタイプをとって（複数タイプの場合は最初に取ってきたタイプ）それに一致するbackgroundColorを当てるようにしています。
+    そして1匹のポケモンのカードをクリックするとモーダルで種族値、タイプ、合計種族値などが見れるようなっています。
+    APIから情報を取得している間はloadingでポケモンのアイコンが回るようにして、待ち時間の体感を減らす工夫をしました。
+    modalでタイプのカラーを設定していないのと、エスケイプキーでしかモーダルが閉じれ無くなっている状態なので時間がある時に直します。
+    このアプリケーションを作った事によって、ReactのHooksの理解が進んでAPIの取得と絡めて使えるようになりました。`,
+    tool: `React
+    CSS
+    Poke API`,
+    images: [
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+      {
+        original: "",
+        thumbnail: "",
+      },
+    ],
+  },
+  {
+    id: 6,
     image: Work5,
     title: "ONE OK ROCK Website",
     github: "https://github.com/t-riku/oneokrock_web/tree/master",
@@ -220,7 +257,7 @@ const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image: Work6,
     title: "DHU Web（リデザイン）",
     github: "https://github.com/t-riku/dhu_redesign/tree/master",
@@ -254,7 +291,7 @@ const projectsData = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     image: Work3,
     title: "多田設計事務所",
     github: "https://github.com/t-riku/tada-home/tree/master",
@@ -288,7 +325,7 @@ const projectsData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     image: Work8,
     title: "Img Search app",
     github: "https://github.com/t-riku/react__searchImg-app/tree/master",
@@ -301,40 +338,6 @@ const projectsData = [
     tool: `React
     Tailwind CSS
     Pixabay API`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
-  },
-  {
-    id: 9,
-    image: Work7,
-    title: "Pokemon app",
-    github: "https://github.com/t-riku/pokemon-app",
-    demo: "https://pokemon-app-bay.vercel.app/",
-    category: "App",
-    time: "2022.12",
-    text: `このアプリケーションを制作した経緯としてはこの頃ポケモンSVが発売されて初めてポケモンを本気でやろうと思い、種族値をインターネットで調べました。
-    その時にデザイン的にあまり好ましくないなと思い自分でも作ってみようと思い作りました。
-    機能としては下の次へボタンを押すと次の20匹のポケモンをPoke Api経由で取得しカードで表示するというアプリです。前へボタンを押すと前の20匹のポケモンを再度取得してきます。
-    カードの背景色はAPIからとってきたポケモンのタイプをとって（複数タイプの場合は最初に取ってきたタイプ）それに一致するbackgroundColorを当てるようにしています。
-    そして1匹のポケモンのカードをクリックするとモーダルで種族値、タイプ、合計種族値などが見れるようなっています。
-    APIから情報を取得している間はloadingでポケモンのアイコンが回るようにして、待ち時間の体感を減らす工夫をしました。
-    modalでタイプのカラーを設定していないのと、エスケイプキーでしかモーダルが閉じれ無くなっている状態なので時間がある時に直します。
-    このアプリケーションを作った事によって、ReactのHooksの理解が進んでAPIの取得と絡めて使えるようになりました。`,
-    tool: `React
-    CSS
-    Poke API`,
     images: [
       {
         original: "",
