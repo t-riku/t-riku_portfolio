@@ -1,12 +1,10 @@
 import React from "react";
 import classes from "src/components/header/Header.module.css";
-// import CTA from "src/pages/components/header/CTA";
-import ME from "public/assets/me.png";
+import ME from "public/assets/me/me.png";
 import Image from "next/image";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import Switch from "src/components/header/Switch";
-// import HeaderSocials from "src/pages/components/header/HeaderSocials";
 
 const Header = () => {
   return (
