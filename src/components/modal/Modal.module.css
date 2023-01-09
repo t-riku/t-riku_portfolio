@@ -207,6 +207,11 @@
   grid-template-columns: 1fr;
 }
 
+.workModal__content .modal__content__right {
+  width: 84%;
+  margin: 0 auto;
+}
+
 .work__description {
   margin: 0 90px;
 }
@@ -321,6 +326,10 @@
 
 /* For medium deveces */
 @media screen and (max-width: 768px) {
+  .workModal__content .modal__content__right {
+    width: 90%;
+  }
+
   .contact__options {
     grid-template-columns: 1fr;
   }
@@ -345,6 +354,10 @@
 
 /* For small deveces */
 @media screen and (max-width: 428px) {
+  .workModal__content .modal__content__right {
+    width: 100%;
+  }
+
   .modal__content__left .work__description p,
   .modal__content__left .work__languages_tools ul {
     padding: 25px 15px;
