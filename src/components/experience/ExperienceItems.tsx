@@ -7,7 +7,8 @@ export type ITEM = {
   title: string;
   category: string;
   // リテラル型で特定の文字しか入らなくなる
-  level: "Basic" | "Advanced" | "Intermedeate";
+  // level: "Basic" | "Advanced" | "Intermedeate";
+  level: string;
 };
 
 const WorkItems = ({ item }: { item: ITEM }) => {
