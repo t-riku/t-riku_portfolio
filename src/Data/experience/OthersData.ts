@@ -5,7 +5,7 @@ const othersData = [
     id: 1,
     title: "Github",
     category: "Git",
-    level: "Intermediate",
+    level: "Intermedeate",
   },
   {
     id: 2,
@@ -29,19 +29,19 @@ const othersData = [
     id: 5,
     title: "Notion",
     category: "efficiency",
-    level: "Intermediate",
+    level: "Intermedeate",
   },
   {
     id: 6,
     title: "Slack",
     category: "SNS",
-    level: "Basic",
+    level: "Intermedeate",
   },
   {
     id: 7,
     title: "SEO",
     category: "knowledge",
-    level: "Intermediate",
+    level: "Intermedeate",
   },
   {
     id: 8,
@@ -53,7 +53,7 @@ const othersData = [
     id: 9,
     title: "vscode",
     category: "editor",
-    level: "Intermediate",
+    level: "Intermedeate",
   },
 ];
 

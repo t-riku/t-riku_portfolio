@@ -31,7 +31,7 @@ const About = () => {
             <article className={classes.about__card}>
               <FaAward className={classes.about__icon} />
               <h5>Experience</h5>
-              <small>2+ Years Studying</small>
+              <small>2+ Years</small>
             </article>
             <article className={classes.about__card}>
               <FiUsers className={classes.about__icon} />
@@ -47,8 +47,8 @@ const About = () => {
 
           <p>
             大学入学後、授業でHTML,CSS,JapaScriptなどのWebの基礎を学ぶ。
-            大学2年生の4月に親戚の法務事務所のWebサイトを制作し初めて世の中に自身の制作物を公開した。
-            大学2年生の終わり、3月に親の建築事務所のWebサイトを制作し公開。
+            大学2年生の4月に祖父母の法務事務所のWebサイトを制作し初めて世の中に自身の制作物を公開した。
+            大学2年生の終わり、3月に両親の建築事務所のWebサイトを制作し公開。
             大学3年生では改めてリデザインをしReactを用いて制作した。
             近頃はWebサイトだけでなくNext
             JSとTypescriptを用いてアプリケーション開発をしている。
