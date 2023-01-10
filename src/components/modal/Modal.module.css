@@ -177,6 +177,10 @@
   font-size: 0.8rem;
 }
 
+.contact__option a:hover {
+  color: var(--color-work-hover);
+}
+
 .aboutMe li {
   font-weight: 600;
   line-height: 1.8rem;
