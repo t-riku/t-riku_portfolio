@@ -34,20 +34,24 @@ const Footer = () => {
 
       <div className={classes.footer__socials}>
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/dinga.riku"
           target="_blank"
           rel="noreferrer noopener"
         >
           <FaFacebookF />
         </a>
         <a
-          href="https://inatagram.com"
+          href="https://www.instagram.com/t.riku_1013/?hl=ja"
           target="_blank"
           rel="noreferrer noopener"
         >
           <FiInstagram />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
+        <a
+          href="https://twitter.com/Rikudinga1013"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <IoLogoTwitter />
         </a>
         <a

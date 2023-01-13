@@ -82,21 +82,21 @@ const MeModal = () => {
               <h2>Riku Tada / 多田　陸</h2>
               <div className={classes.modal__socials}>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/dinga.riku"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   <FaFacebookF />
                 </a>
                 <a
-                  href="https://inatagram.com"
+                  href="https://www.instagram.com/t.riku_1013/?hl=ja"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   <FiInstagram />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/Rikudinga1013"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
