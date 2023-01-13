@@ -12,6 +12,7 @@ import Work11 from "public/assets/portfolio/catImg-app__fullsize.png";
 import Work12 from "public/assets/portfolio/weather-app__fullsize.png";
 import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
 import Work14 from "public/assets/portfolio/pokedex-app__fullsize.png";
+import Work15 from "public/assets/portfolio/hp_ssg__fullsize.png";
 
 // ========== PORTFOLIO DATA ==========
 
@@ -95,20 +96,20 @@ const projectsData = [
       Illustrator
       Photoshop`,
 
-    images: [
-      {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/250/150/",
-      },
-      {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-      },
-      {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-      },
-    ],
+    // images: [
+    //   {
+    //     original: "https://picsum.photos/id/1018/1000/600/",
+    //     thumbnail: "https://picsum.photos/id/1018/250/150/",
+    //   },
+    //   {
+    //     original: "https://picsum.photos/id/1015/1000/600/",
+    //     thumbnail: "https://picsum.photos/id/1015/250/150/",
+    //   },
+    //   {
+    //     original: "https://picsum.photos/id/1019/1000/600/",
+    //     thumbnail: "https://picsum.photos/id/1019/250/150/",
+    //   },
+    // ],
   },
   {
     id: 3,
@@ -132,20 +133,20 @@ const projectsData = [
     Module CSS
     Sass
     Poke API`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
+    // images: [
+    //   {
+    //     original: "",
+    //     thumbnail: "",
+    //   },
+    //   {
+    //     original: "",
+    //     thumbnail: "",
+    //   },
+    //   {
+    //     original: "",
+    //     thumbnail: "",
+    //   },
+    // ],
   },
   {
     id: 4,
@@ -167,21 +168,6 @@ const projectsData = [
       Bootstrap
       Firebase
       Photoshop`,
-
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 5,
@@ -202,20 +188,6 @@ const projectsData = [
     tool: `React
     CSS
     Poke API`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 6,
@@ -241,20 +213,6 @@ const projectsData = [
     JavaScript
     Bootstrap,  
     Micromodal js`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 7,
@@ -275,20 +233,6 @@ const projectsData = [
     SASS
     JavaScript
     Bootstrap`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 8,
@@ -309,20 +253,6 @@ const projectsData = [
       Firebase
       Illustrator
       Photoshop`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 9,
@@ -338,20 +268,6 @@ const projectsData = [
     tool: `React
     Tailwind CSS
     Pixabay API`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 10,
@@ -367,20 +283,6 @@ const projectsData = [
     tool: `React
     TypeScript
     Tailwind CSS`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 11,
@@ -394,20 +296,6 @@ const projectsData = [
     バリデーションチェックの仕方、if文の条件分岐、三項演算子を学びました。`,
     tool: `React
     CSS`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 12,
@@ -425,20 +313,6 @@ const projectsData = [
       Module CSS
       semantic-ui
       The Cat API`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 13,
@@ -453,20 +327,6 @@ const projectsData = [
     Tailwind CSS
     OpenWeather API
     day js`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
   },
   {
     id: 14,
@@ -488,20 +348,40 @@ const projectsData = [
     SASS
     Bootstrap
     JavaScript`,
-    images: [
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-      {
-        original: "",
-        thumbnail: "",
-      },
-    ],
+  },
+  {
+    id: 15,
+    image: Work15,
+    title: "ブログサイト",
+    github: "https://github.com/t-riku/next-hp-ssg",
+    demo: "https://next-hp-ssg.vercel.app/",
+    category: "Web",
+    time: "2023.1",
+    text: `このブログサイトはUdemyの講座から制作しました。
+    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
+    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをしていてAPIの取得をしていても高速にレンダリングされています。
+    またあるブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
+    コンタクトページでは静的なページをSSGで生成しています。
+    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、`,
+    tool: `Next JS
+    Tailwind CSS`,
+  },
+  {
+    id: 16,
+    image: Work15,
+    title: "Blog + Todo app",
+    github: "https://github.com/t-riku/next-hp-ssg",
+    demo: "https://next-hp-ssg.vercel.app/",
+    category: "app",
+    time: "2023.1",
+    text: `このブログサイトはUdemyの講座から制作しました。
+    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
+    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをしていてAPIの取得をしていても高速にレンダリングされています。
+    またあるブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
+    コンタクトページでは静的なページをSSGで生成しています。
+    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、`,
+    tool: `Next JS
+    Tailwind CSS`,
   },
 ];
 
