@@ -358,11 +358,12 @@ const projectsData = [
     category: "Web",
     time: "2023.1",
     text: `このブログサイトはUdemyの講座から制作しました。
+    Udemyを見た後で一回制作し、自分で見ないで制作できるまで理解しました。
     ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをしていてAPIの取得をしていても高速にレンダリングされています。
-    またあるブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
+    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをすることによって、APIの取得をしていても高速にレンダリングされています。
+    またブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
     コンタクトページでは静的なページをSSGで生成しています。
-    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、`,
+    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、Dynamic routing、Layoutコンポーネントの活用、Static Site Generation(SSG)、getStaticProps、getStaticPathsを学ぶことができました。    `,
     tool: `Next JS
     Tailwind CSS`,
   },
@@ -370,7 +371,7 @@ const projectsData = [
     id: 16,
     image: Work15,
     title: "Blog + Todo app",
-    github: "https://github.com/t-riku/next-hp-ssg",
+    github: "https://github.com/t-riku/next-blog-todos",
     demo: "https://next-hp-ssg.vercel.app/",
     category: "app",
     time: "2023.1",
