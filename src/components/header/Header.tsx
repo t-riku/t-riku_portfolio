@@ -21,7 +21,13 @@ const Header = () => {
         <HeaderSocials />
 
         <div className={classes.me}>
-          <Image src={ME} width={500} height={300} alt="My Image" />
+          <Image
+            src={ME}
+            width={500}
+            height={300}
+            alt="My Image"
+            priority={true}
+          />
         </div>
 
         <div className={classes.scrolldown4}>
