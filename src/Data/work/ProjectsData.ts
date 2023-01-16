@@ -375,14 +375,21 @@ const projectsData = [
     demo: "https://next-hp-ssg.vercel.app/",
     category: "app",
     time: "2023.1",
-    text: `このブログサイトはUdemyの講座から制作しました。
+    text: `認証機能付き ブログ+Todos アプリケーションです。
+    このアプリケーションはUdemyの講座から制作しました。
+    オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。。
     ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをしていてAPIの取得をしていても高速にレンダリングされています。
-    またあるブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
-    コンタクトページでは静的なページをSSGで生成しています。
-    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、`,
+    このWeb制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext(state management in Nextjs)、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法`,
     tool: `Next JS
-    Tailwind CSS`,
+    Tailwind CSS
+    Python
+    REST API
+    Anaconda Navigator
+    PyCharm
+    Node.js
+    Postman
+    Mod header(Google Chrome拡張機能)
+    `,
   },
 ];
 
