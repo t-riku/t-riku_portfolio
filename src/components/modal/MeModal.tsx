@@ -203,7 +203,7 @@ const MeModal = () => {
               </li>
               <li>
                 <span>短所：</span>
-                心配性、記憶力が悪い、ケチ
+                心配性、記憶力が悪い、ケチ、滑舌が悪い
               </li>
             </ul>
             <div className={classes.chronology}>
