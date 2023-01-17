@@ -13,6 +13,7 @@ import Work12 from "public/assets/portfolio/weather-app__fullsize.png";
 import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
 import Work14 from "public/assets/portfolio/pokedex-app__fullsize.png";
 import Work15 from "public/assets/portfolio/hp_ssg__fullsize.png";
+import Work16 from "public/assets/portfolio/blog_todos-app__fullsize.png";
 
 // ========== PORTFOLIO DATA ==========
 
@@ -369,7 +370,7 @@ const projectsData = [
   },
   {
     id: 16,
-    image: Work15,
+    image: Work16,
     title: "Blog + Todo app",
     github: "https://github.com/t-riku/next-blog-todos",
     demo: "https://next-hp-ssg.vercel.app/",
@@ -379,10 +380,10 @@ const projectsData = [
     このアプリケーションはUdemyの講座から制作しました。
     オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。。
     ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    このWeb制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext(state management in Nextjs)、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法`,
+    このWeb制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext(state management in Nextjs)、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法を学ぶことができました。`,
     tool: `Next JS
     Tailwind CSS
-    Python
+    Django
     REST API
     Anaconda Navigator
     PyCharm
