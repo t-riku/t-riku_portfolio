@@ -371,16 +371,18 @@ const projectsData = [
   {
     id: 16,
     image: Work16,
-    title: "Blog + Todo app",
+    title: "Login + Blog + Todo app",
     github: "https://github.com/t-riku/next-blog-todos",
-    demo: "https://next-hp-ssg.vercel.app/",
+    demo: "https://next-blog-todos-six.vercel.app/",
     category: "app",
     time: "2023.1",
     text: `認証機能付き ブログ+Todos アプリケーションです。
     このアプリケーションはUdemyの講座から制作しました。
-    オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。。
+    なぜこのアプリケーションを制作したいと思った経緯は、私の将来のエンジニア像がフロントもバックエンドもできるエンジニアで、バックエンドのAPIとフロントの繋げ方を理解したかったからです。
+    バックエンドとフロントの繋げ方の他にもNextjs固有の機能であるSSGやISRの適切な使い方やDynamic routingの使い方などとても理解が進みました。
+    オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。
     ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    このWeb制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext(state management in Nextjs)、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法を学ぶことができました。`,
+    このアプリケーション制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、postmanを使ったAPIテスト手法、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、ログインと新規登録機能の実装方法、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法など様々な事を学ぶことができました。`,
     tool: `Next JS
     Tailwind CSS
     Django
