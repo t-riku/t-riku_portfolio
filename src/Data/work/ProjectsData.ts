@@ -14,6 +14,7 @@ import Work13 from "public/assets/portfolio/dhu_bar-team__fullsize.png";
 import Work14 from "public/assets/portfolio/pokedex-app__fullsize.png";
 import Work15 from "public/assets/portfolio/hp_ssg__fullsize.png";
 import Work16 from "public/assets/portfolio/blog_todos-app__fullsize.png";
+import Work17 from "public/assets/portfolio/sns-app__fullsize.png";
 
 // ========== PORTFOLIO DATA ==========
 
@@ -45,6 +46,7 @@ const projectsData = [
     tool: `Next JS  
     TypeScript
     Module CSS
+    React Icons
     Photoshop`,
     // images: [
     //   {
@@ -111,6 +113,31 @@ const projectsData = [
     //     thumbnail: "https://picsum.photos/id/1019/250/150/",
     //   },
     // ],
+  },
+  {
+    id: 17,
+    image: Work17,
+    title: "SNS app",
+    github: "https://github.com/t-riku/sns-app",
+    demo: "https://sns-app-beta.vercel.app/",
+    category: "app",
+    time: "2023.1",
+    text: `認証機能付きのSNSアプリケーションです。
+    このアプリケーションはUdemyの講座から制作しました。
+    なぜこのアプリケーションを制作したいと思った経緯は、私の将来のエンジニア像がフロントもバックエンドもできるエンジニアで、バックエンドのAPIとフロントの繋げ方を理解したかったからです。
+    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
+    このアプリケーション制作を通して、LinkによるClient-side-navigation、mongoDBとnodeJSの接続、postmanの役割、mongooseの使い方、投稿を更新できる機能もついているpostmanを使ったAPIテスト手法、ログインと新規登録の機能など様々な事を学ぶことができました。
+    これからもブックマークやメッセージ、カラーモードの変更、検索などの機能を追加していく予定です。`,
+    tool: `
+    MongoDB
+    Express
+    React（Next JS）
+    Node.js
+    Tailwind CSS
+    Postman
+    mongoose
+    multer
+    `,
   },
   {
     id: 3,
