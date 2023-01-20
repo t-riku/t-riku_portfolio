@@ -115,7 +115,7 @@ const projectsData = [
     // ],
   },
   {
-    id: 17,
+    id: 3,
     image: Work17,
     title: "SNS app",
     github: "https://github.com/t-riku/sns-app",
@@ -123,10 +123,9 @@ const projectsData = [
     category: "app",
     time: "2023.1",
     text: `認証機能付きのSNSアプリケーションです。
-    このアプリケーションはUdemyの講座から制作しました。
     なぜこのアプリケーションを制作したいと思った経緯は、私の将来のエンジニア像がフロントもバックエンドもできるエンジニアで、バックエンドのAPIとフロントの繋げ方を理解したかったからです。
     ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    このアプリケーション制作を通して、LinkによるClient-side-navigation、mongoDBとnodeJSの接続、postmanの役割、mongooseの使い方、投稿を更新できる機能もついているpostmanを使ったAPIテスト手法、ログインと新規登録の機能など様々な事を学ぶことができました。
+    このアプリケーションはUdemyの講座を元に制作したのですが、LinkによるClient-side-navigation、mongoDBとnodeJSの接続、postmanの役割、mongooseの使い方、投稿を更新できる機能もついているpostmanを使ったAPIテスト手法、ログインと新規登録の機能など様々な事を学ぶことができました。
     これからもブックマークやメッセージ、カラーモードの変更、検索などの機能を追加していく予定です。`,
     tool: `
     MongoDB
@@ -140,7 +139,7 @@ const projectsData = [
     `,
   },
   {
-    id: 3,
+    id: 4,
     image: Work14,
     title: "Pokedex app",
     github: "https://github.com/t-riku/pokedex-app",
@@ -177,7 +176,34 @@ const projectsData = [
     // ],
   },
   {
-    id: 4,
+    id: 5,
+    image: Work16,
+    title: "Login + Blog + Todo app",
+    github: "https://github.com/t-riku/next-blog-todos",
+    demo: "https://next-blog-todos-six.vercel.app/",
+    category: "app",
+    time: "2023.1",
+    text: `認証機能付き ブログ+Todos アプリケーションです。
+    このアプリケーションはUdemyの講座から制作しました。
+    なぜこのアプリケーションを制作したいと思った経緯は、私の将来のエンジニア像がフロントもバックエンドもできるエンジニアで、バックエンドのAPIとフロントの繋げ方を理解したかったからです。
+    バックエンドとフロントの繋げ方の他にもNextjs固有の機能であるSSGやISRの適切な使い方やDynamic routingの使い方などとても理解が進みました。
+    オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。
+    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
+    このアプリケーション制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、postmanを使ったAPIテスト手法、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、ログインと新規登録機能の実装方法、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法など様々な事を学ぶことができました。`,
+    tool: `Next JS
+    Tailwind CSS
+    Django
+    REST API
+    Anaconda Navigator
+    PyCharm
+    Node.js
+    Postman
+    Mod header(Google Chrome拡張機能)
+    `,
+  },
+
+  {
+    id: 6,
     image: Work4,
     title: "山下法務事務所",
     github: "https://github.com/YamashitaOffice/homepage",
@@ -198,7 +224,7 @@ const projectsData = [
       Photoshop`,
   },
   {
-    id: 5,
+    id: 7,
     image: Work7,
     title: "Pokemon app",
     github: "https://github.com/t-riku/pokemon-app",
@@ -218,7 +244,7 @@ const projectsData = [
     Poke API`,
   },
   {
-    id: 6,
+    id: 8,
     image: Work5,
     title: "ONE OK ROCK Website",
     github: "https://github.com/t-riku/oneokrock_web/tree/master",
@@ -243,7 +269,24 @@ const projectsData = [
     Micromodal js`,
   },
   {
-    id: 7,
+    id: 9,
+    image: Work15,
+    title: "ブログサイト",
+    github: "https://github.com/t-riku/next-hp-ssg",
+    demo: "https://next-hp-ssg.vercel.app/",
+    category: "Web",
+    time: "2023.1",
+    text: `ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
+    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをすることによって、APIの取得をしていても高速にレンダリングされています。
+    またブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
+    コンタクトページでは静的なページをSSGで生成しています。
+    このブログサイトはUdemyの講座から制作したのですが、Udemyを見た後で一回制作し、自分で見ないで制作できるまで理解しました。
+    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、Dynamic routing、Layoutコンポーネントの活用、Static Site Generation(SSG)、getStaticProps、getStaticPathsを学ぶことができました。    `,
+    tool: `Next JS
+    Tailwind CSS`,
+  },
+  {
+    id: 10,
     image: Work6,
     title: "DHU Web（リデザイン）",
     github: "https://github.com/t-riku/dhu_redesign/tree/master",
@@ -263,7 +306,7 @@ const projectsData = [
     Bootstrap`,
   },
   {
-    id: 8,
+    id: 11,
     image: Work3,
     title: "多田設計事務所",
     github: "https://github.com/t-riku/tada-home/tree/master",
@@ -283,7 +326,7 @@ const projectsData = [
       Photoshop`,
   },
   {
-    id: 9,
+    id: 12,
     image: Work8,
     title: "Img Search app",
     github: "https://github.com/t-riku/react__searchImg-app/tree/master",
@@ -298,7 +341,7 @@ const projectsData = [
     Pixabay API`,
   },
   {
-    id: 10,
+    id: 13,
     image: Work9,
     title: "Memo app",
     github: "https://github.com/t-riku/react__memo-app/tree/master",
@@ -313,7 +356,7 @@ const projectsData = [
     Tailwind CSS`,
   },
   {
-    id: 11,
+    id: 14,
     image: Work10,
     title: "Login Form Validation app",
     github: "https://github.com/t-riku/react__login-app/tree/master",
@@ -326,7 +369,7 @@ const projectsData = [
     CSS`,
   },
   {
-    id: 12,
+    id: 15,
     image: Work11,
     title: "Cat Image app",
     github: "https://github.com/t-riku/next-catImg-app",
@@ -343,7 +386,7 @@ const projectsData = [
       The Cat API`,
   },
   {
-    id: 13,
+    id: 16,
     image: Work12,
     title: "Weather app",
     github: "https://github.com/t-riku/react__weather-app",
@@ -357,7 +400,7 @@ const projectsData = [
     day js`,
   },
   {
-    id: 14,
+    id: 17,
     image: Work13,
     title: "月夜のケダモノ",
     github: "https://github.com/t-riku/dhu_web_02",
@@ -376,50 +419,6 @@ const projectsData = [
     SASS
     Bootstrap
     JavaScript`,
-  },
-  {
-    id: 15,
-    image: Work15,
-    title: "ブログサイト",
-    github: "https://github.com/t-riku/next-hp-ssg",
-    demo: "https://next-hp-ssg.vercel.app/",
-    category: "Web",
-    time: "2023.1",
-    text: `このブログサイトはUdemyの講座から制作しました。
-    Udemyを見た後で一回制作し、自分で見ないで制作できるまで理解しました。
-    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    ブログページでは外部APIのブログ記事をビルド時に事前にデータベースにアクセスして、そのデータを使って静的なHTMLを事前に作っておくpre-renderingをすることによって、APIの取得をしていても高速にレンダリングされています。
-    またブログページを押すと詳細な個別のブログページにとべるのですが、ダイナミックルートの機能を使って少ない記述量で機能しています。
-    コンタクトページでは静的なページをSSGで生成しています。
-    このホームページ制作を通して、Next JSの基本的な機能、スタティックサイトジェネレーション、Dynamic routing、Layoutコンポーネントの活用、Static Site Generation(SSG)、getStaticProps、getStaticPathsを学ぶことができました。    `,
-    tool: `Next JS
-    Tailwind CSS`,
-  },
-  {
-    id: 16,
-    image: Work16,
-    title: "Login + Blog + Todo app",
-    github: "https://github.com/t-riku/next-blog-todos",
-    demo: "https://next-blog-todos-six.vercel.app/",
-    category: "app",
-    time: "2023.1",
-    text: `認証機能付き ブログ+Todos アプリケーションです。
-    このアプリケーションはUdemyの講座から制作しました。
-    なぜこのアプリケーションを制作したいと思った経緯は、私の将来のエンジニア像がフロントもバックエンドもできるエンジニアで、バックエンドのAPIとフロントの繋げ方を理解したかったからです。
-    バックエンドとフロントの繋げ方の他にもNextjs固有の機能であるSSGやISRの適切な使い方やDynamic routingの使い方などとても理解が進みました。
-    オリジナルREST APIと連携してIncremental Static Regeneration(ISR), Static Site Generation(SSG), SSG+ISR+Client Side Fetching(useSWR)を使ってSEO対策や高速レンダリングを実現し、リアルタイムデータ取得が可能です。
-    ホームページ、LP、ブログなどSEO対策や高速レンダリングに最適なモダンReact フレームワークNext.jsと〇〇.module.cssが不要でclass名で悩む必要がなく、可読性が上がり、コードの記述量が減るTailwind CSSを使っています。
-    このアプリケーション制作を通して、LinkによるClient-side-navigation、Layoutコンポーネントの活用、postmanを使ったAPIテスト手法、useRouter、Static Site Generation(SSG)、Incremental Static Regeneration(ISR)、Stale While Revalidation、useSWR、ログインと新規登録機能の実装方法、fallbackの理解、revalidateの理解、Dynamic routing、getStaticProps、getStaticPaths、useContext、JWT認証機能、universal-cookie、Django REST FrameworkによるREST API実装、REST APIのDeploy、REST APIとNextjsの連携 (node-fetch + client side fetch(useSWR)、SSG + ISR + CSR(useSWR)を組み合わせた、SEO対策+リアルタイムデータ取得手法など様々な事を学ぶことができました。`,
-    tool: `Next JS
-    Tailwind CSS
-    Django
-    REST API
-    Anaconda Navigator
-    PyCharm
-    Node.js
-    Postman
-    Mod header(Google Chrome拡張機能)
-    `,
   },
 ];
 
