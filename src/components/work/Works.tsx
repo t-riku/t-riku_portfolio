@@ -29,7 +29,7 @@ const Works = () => {
     <>
       <p className={classes.work__text}>
         特に見て欲しい制作物が「ポートフォリオサイト」「多田設計事務所（リメイク）」「SNS
-        app」「Pokedex」です
+        app（制作中）」「Pokedex」です
       </p>
       <div className={classes.work__filters}>
         {projectsNav.map((item, index) => {

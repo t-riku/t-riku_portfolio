@@ -161,7 +161,7 @@ const projectsData = [
     Postman
     mongoose
     multer
-    `,
+    timeago.js`,
   },
   {
     id: 4,
